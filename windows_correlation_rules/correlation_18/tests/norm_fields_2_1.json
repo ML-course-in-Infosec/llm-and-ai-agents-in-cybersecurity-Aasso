@@ -1,0 +1,14 @@
+{
+  "time": "2023-06-09t19:34:19.602076800z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "dc1.lab.local",
+  "event_src.id": "4663",
+  "event_src.category": "security",
+  "subject.process.id": "0x50c",
+  "subject.account.name": "admin",
+  "subject.account.domain": "lab",
+  "subject.account.id": "s-1-5-21-1840087645-2506612525-4240436938-1000",
+  "subject.process.fullpath": "c:\\users\\admin\\downloads\\mimikatz_trunk\\x64\\mimikatz.exe"
+}

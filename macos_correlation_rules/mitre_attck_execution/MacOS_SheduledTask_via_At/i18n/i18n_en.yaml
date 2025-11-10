@@ -1,0 +1,4 @@
+Description: 'Adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_SheduledTask_via_At'
+      EventDescription: 'Execution of the {object.process.cmdline} command was detected on host {event_src.host)'

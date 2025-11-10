@@ -1,0 +1,17 @@
+{
+  "time": "2023-07-31t14:19:58.0692824z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "arm-dns-admin.stand2008.local",
+  "event_src.id": "13",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.account.domain": "nt authority",
+  "subject.account.name": "система",
+  "subject.process.fullpath": "c:\\windows\\system32\\services.exe",
+  "subject.process.path": "c:\\windows\\system32\\",
+  "subject.process.name": "services.exe",
+  "subject.process.id": "748",
+  "subject.process.guid": "{2b856446-bc6a-64c7-0b00-000000003c00}",
+  "object.path": "hklm\\system\\currentcontrolset\\services\\bbpv\\imagepath"
+}

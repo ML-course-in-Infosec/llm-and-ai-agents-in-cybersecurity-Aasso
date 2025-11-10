@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "429",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent",
+    "subject.process.name": "com.apple.quicklook.ThumbnailsAgent",
+    "subject.process.path": "/System/Library/Frameworks/QuickLookThumbnailing.framework/Support/",
+    "subject.process.hash": "UNKNOWN:DA8461BF81E76E5FF10170B9AE238CB5BA025852",
+    "object.fullpath": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/C/com.apple.quicklook.ThumbnailsAgent/com.apple.QuickLook.thumbnailcache/dirty",
+    "object.name": "dirty",
+    "object.path": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/C/com.apple.quicklook.ThumbnailsAgent/com.apple.QuickLook.thumbnailcache/",
+    "msgid": "13",
+    "time": "2024-03-12T13:23:21.452Z",
+    "event_src.host": "127.0.0.1"
+}

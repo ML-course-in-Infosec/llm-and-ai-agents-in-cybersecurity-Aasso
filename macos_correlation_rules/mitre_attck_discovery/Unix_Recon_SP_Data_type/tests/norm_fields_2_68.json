@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "466",
+    "subject.process.id": "2536",
+    "subject.process.parent.id": "2535",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "C231841242938517C8AEEE9CCDE4BC550E4292FC",
+    "object.process.fullpath": "/usr/sbin/sysctl",
+    "object.process.name": "sysctl",
+    "object.process.path": "/usr/sbin/",
+    "object.process.cmdline": "sysctl -n machdep.cpu.brand_string",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "2536",
+    "object.process.parent.id": "2535",
+    "msgid": "9",
+    "time": "2024-03-15T09:49:02.309Z",
+    "event_src.host": "127.0.0.1"
+}

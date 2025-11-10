@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "924",
+    "subject.process.id": "1350",
+    "subject.process.parent.id": "925",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.process.fullpath": "/bin/bash",
+    "object.process.name": "bash",
+    "object.process.path": "/bin/",
+    "msgid": "11",
+    "time": "2024-03-12T14:33:32.999Z",
+    "event_src.host": "127.0.0.1"
+}

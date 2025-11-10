@@ -1,0 +1,4 @@
+Description: 'Attackers can use standard macOS utilities to change the configuration of com.apple.loginwindow.plist, including pinning using LoginHook/LogoutHook when a user logs in/out. Using them, macOS launches the cfprefsd daemon, which modifies the file.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Modify_loginwindow_plist'
+      EventDescription: 'An attempt to attach to the system using modification {object.name}'

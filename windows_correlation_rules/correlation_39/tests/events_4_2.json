@@ -1,0 +1,84 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "5145",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12811",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2024-07-04T10:18:54.2569915Z"
+            },
+            "EventRecordID": "1905482",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "504",
+                "ThreadID": "520"
+            },
+            "Channel": "Security",
+            "Computer": "win7-hack.stand2008.local",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-3800063338-4262557262-2801230003-500"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "Администратор"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "STAND2008"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0xd95b8"
+                },
+                {
+                    "Name": "ObjectType",
+                    "text": "File"
+                },
+                {
+                    "Name": "IpAddress",
+                    "text": "192.168.224.50"
+                },
+                {
+                    "Name": "IpPort",
+                    "text": "50981"
+                },
+                {
+                    "Name": "ShareName",
+                    "text": "\\\\*\\IPC$"
+                },
+                {
+                    "Name": "ShareLocalPath"
+                },
+                {
+                    "Name": "RelativeTargetName",
+                    "text": "lsarpc"
+                },
+                {
+                    "Name": "AccessMask",
+                    "text": "0x12019f"
+                },
+                {
+                    "Name": "AccessList",
+                    "text": "%%1538 %%1541 %%4416 %%4417 %%4418 %%4419 %%4420 %%4423 %%4424"
+                },
+                {
+                    "Name": "AccessReason",
+                    "text": "-"
+                }
+            ]
+        }
+    }
+}

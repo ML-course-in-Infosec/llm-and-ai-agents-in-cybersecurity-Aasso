@@ -1,0 +1,13 @@
+{
+  "time": "2022-02-16t10:37:20.5086654z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "01566s-win16-ir.threebeesco.com",
+  "event_src.id": "5145",
+  "event_src.category": "security",
+  "subject.account.name": "samir",
+  "subject.account.domain": "3b",
+  "subject.account.id": "s-1-5-21-308926384-506822093-3341789130-220106",
+  "src.ip": "172.16.66.25"
+}

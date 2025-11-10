@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "366",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/usr/sbin/cfprefsd",
+    "subject.process.name": "cfprefsd",
+    "subject.process.path": "/usr/sbin/",
+    "subject.process.hash": "UNKNOWN:2E192C814E248D3C5B9F9EE291357018666B7BDE",
+    "object.fullpath": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/TemporaryItems/ContextStoreAgent.plist.qfLbiL5",
+    "object.name": "ContextStoreAgent.plist.qfLbiL5",
+    "object.path": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/TemporaryItems/",
+    "msgid": "13",
+    "time": "2024-03-12T13:23:23.107Z",
+    "event_src.host": "127.0.0.1"
+}

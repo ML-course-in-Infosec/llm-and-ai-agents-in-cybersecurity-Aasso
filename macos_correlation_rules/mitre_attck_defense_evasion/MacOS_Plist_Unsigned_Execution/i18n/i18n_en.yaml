@@ -1,0 +1,4 @@
+Description: 'Launch of unsigned files via plist detected'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Plist_Unsigned_Execution'
+      EventDescription: 'Process {subject.process.name} launched unsigned file {object.process.name}'

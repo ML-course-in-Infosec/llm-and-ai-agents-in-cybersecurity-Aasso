@@ -1,0 +1,268 @@
+{
+    "schema_version": 1,
+    "mach_time": 219314115200,
+    "event_type": 9,
+    "thread": {
+        "thread_id": 50108
+    },
+    "version": 7,
+    "seq_num": 23,
+    "event": {
+        "exec": {
+            "script": null,
+            "last_fd": 2,
+            "target": {
+                "signing_id": "com.apple.xpc.launchctl",
+                "parent_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 5479,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 501,
+                    "egid": 0,
+                    "pid": 2999
+                },
+                "codesigning_flags": 570509825,
+                "executable": {
+                    "path": "/bin/launchctl",
+                    "stat": {
+                        "st_blocks": 224,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777232,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312435288,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 394848,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 2999,
+                "tty": {
+                    "path": "/dev/ttys003",
+                    "stat": {
+                        "st_blocks": 0,
+                        "st_blksize": 65536,
+                        "st_rdev": 268435459,
+                        "st_dev": 1782582721,
+                        "st_uid": 501,
+                        "st_gid": 4,
+                        "st_ino": 1211,
+                        "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                        "st_flags": 0,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2024-03-07T12:25:22.968214000Z",
+                        "st_ctimespec": "2024-03-07T12:25:22.968214000Z",
+                        "st_size": 0,
+                        "st_gen": 0,
+                        "st_mode": 8592,
+                        "st_atimespec": "2024-03-07T12:25:22.958386000Z"
+                    },
+                    "path_truncated": false
+                },
+                "start_time": "2024-03-07T12:25:23.061104Z",
+                "is_platform_binary": true,
+                "group_id": 2974,
+                "audit_token": {
+                    "asid": 100004,
+                    "pidversion": 5481,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 501,
+                    "egid": 0,
+                    "pid": 3000
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 889,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 380
+                },
+                "session_id": 1556,
+                "original_ppid": 2999,
+                "cdhash": "2984AECBCB894D2F45E2AAA5293D80831C91C59B",
+                "team_id": null
+            },
+            "image_cpusubtype": -2147483646,
+            "image_cputype": 16777228,
+            "fds": [
+                {
+                    "fd": 0,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 1,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 2,
+                    "fdtype": 1
+                }
+            ],
+            "env": [
+                "TERM=xterm-256color",
+                "LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43",
+                "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.8sVQCD9Rry/Listeners",
+                "__CF_USER_TEXT_ENCODING=0x0:0:0",
+                "LSCOLORS=Gxfxcxdxbxegedabagacad",
+                "PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin",
+                "MAIL=/var/mail/root",
+                "COLORFGBG=15;0",
+                "HOME=/Users/user",
+                "LC_TERMINAL_VERSION=3.4.22",
+                "LC_CTYPE=UTF-8",
+                "LC_TERMINAL=iTerm2",
+                "COLORTERM=truecolor",
+                "LOGNAME=root",
+                "USER=root",
+                "SHELL=/bin/sh",
+                "SUDO_COMMAND=/bin/launchctl load -w /Users/user/Library/LaunchAgents/a.plist",
+                "SUDO_USER=root",
+                "SUDO_UID=0",
+                "SUDO_GID=0"
+            ],
+            "args": [
+                "launchctl",
+                "load",
+                "-w",
+                "/Users/user/Library/LaunchAgents/a.plist"
+            ],
+            "cwd": {
+                "path": "/Users/user/Desktop/Siggen",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777232,
+                    "st_uid": 501,
+                    "st_gid": 20,
+                    "st_ino": 609605,
+                    "st_birthtimespec": "2019-12-31T21:16:05.000000000Z",
+                    "st_flags": 0,
+                    "st_nlink": 7,
+                    "st_mtimespec": "2024-03-07T12:02:02.144277810Z",
+                    "st_ctimespec": "2024-03-07T12:02:02.144277810Z",
+                    "st_size": 224,
+                    "st_gen": 0,
+                    "st_mode": 16877,
+                    "st_atimespec": "2024-03-07T12:02:02.206959985Z"
+                },
+                "path_truncated": false
+            },
+            "dyld_exec_path": "/bin/launchctl"
+        }
+    },
+    "time": "2024-03-07T12:25:23.061983582Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.sudo",
+        "parent_audit_token": {
+            "asid": 100004,
+            "pidversion": 5479,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 501,
+            "egid": 0,
+            "pid": 2999
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/usr/bin/sudo",
+            "stat": {
+                "st_blocks": 1152,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777232,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312436744,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 1246528,
+                "st_gen": 0,
+                "st_mode": 35145,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 2999,
+        "tty": {
+            "path": "/dev/ttys003",
+            "stat": {
+                "st_blocks": 0,
+                "st_blksize": 65536,
+                "st_rdev": 268435459,
+                "st_dev": 1782582721,
+                "st_uid": 501,
+                "st_gid": 4,
+                "st_ino": 1211,
+                "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                "st_flags": 0,
+                "st_nlink": 1,
+                "st_mtimespec": "2024-03-07T12:25:22.968214000Z",
+                "st_ctimespec": "2024-03-07T12:25:22.968214000Z",
+                "st_size": 0,
+                "st_gen": 0,
+                "st_mode": 8592,
+                "st_atimespec": "2024-03-07T12:25:22.958386000Z"
+            },
+            "path_truncated": false
+        },
+        "start_time": "2024-03-07T12:25:23.061104Z",
+        "is_platform_binary": true,
+        "group_id": 2974,
+        "audit_token": {
+            "asid": 100004,
+            "pidversion": 5480,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 501,
+            "egid": 0,
+            "pid": 3000
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100004,
+            "pidversion": 889,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 380
+        },
+        "session_id": 1556,
+        "original_ppid": 2999,
+        "cdhash": "C64A1CFD4895F18F2609937A7F324CC0CA2FC665",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 408
+}

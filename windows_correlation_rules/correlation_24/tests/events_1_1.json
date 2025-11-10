@@ -1,0 +1,93 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4688",
+            "Version": "2",
+            "Level": "0",
+            "Task": "13312",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-06-05T08:46:55.3231989Z"
+            },
+            "EventRecordID": "26381023",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "10216"
+            },
+            "Channel": "Security",
+            "Computer": "win10-work.stand2008.local",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-18"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "WIN10-WORK$"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "STAND2008"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x3e7"
+                },
+                {
+                    "Name": "NewProcessId",
+                    "text": "0xa08"
+                },
+                {
+                    "Name": "NewProcessName",
+                    "text": "C:\\Windows\\System32\\VSSVC.exe"
+                },
+                {
+                    "Name": "TokenElevationType",
+                    "text": "%%1936"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x344"
+                },
+                {
+                    "Name": "CommandLine",
+                    "text": "C:\\Windows\\system32\\vssvc.exe"
+                },
+                {
+                    "Name": "TargetUserSid",
+                    "text": "S-1-0-0"
+                },
+                {
+                    "Name": "TargetUserName",
+                    "text": "-"
+                },
+                {
+                    "Name": "TargetDomainName",
+                    "text": "-"
+                },
+                {
+                    "Name": "TargetLogonId",
+                    "text": "0x0"
+                },
+                {
+                    "Name": "ParentProcessName",
+                    "text": "C:\\Windows\\System32\\services.exe"
+                },
+                {
+                    "Name": "MandatoryLabel",
+                    "text": "S-1-16-16384"
+                }
+            ]
+        }
+    }
+}

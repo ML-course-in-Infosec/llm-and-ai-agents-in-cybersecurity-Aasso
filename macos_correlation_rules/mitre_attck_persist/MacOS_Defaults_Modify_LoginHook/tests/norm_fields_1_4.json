@@ -1,0 +1,15 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "470",
+    "subject.process.id": "1233",
+    "subject.process.parent.id": "1232",
+    "subject.process.fullpath": "/usr/bin/defaults",
+    "subject.process.name": "defaults",
+    "subject.process.path": "/usr/bin/",
+    "subject.process.hash": "UNKNOWN:EC4120B645FAFAEBECD8C0185B70FDB7252335C2",
+    "object.fullpath": "/",
+    "object.path": "/",
+    "msgid": "10",
+    "time": "2024-03-19T08:32:26.971Z",
+    "event_src.host": "127.0.0.1"
+}

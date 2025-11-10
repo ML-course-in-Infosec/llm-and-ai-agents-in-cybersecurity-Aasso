@@ -1,0 +1,4 @@
+Description: 'Suspicious activity involving the gathering of system information through the use of Bash scripts has been detected'
+EventDescriptions:
+    - LocalizationId: 'corrname_Unix_Recon_SP_Data_type'
+      EventDescription: 'Suspicious activity involving the gathering of system information through the use of Bash scripts has been detected on the {event_src.host} host'

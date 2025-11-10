@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "466",
+    "subject.process.id": "2539",
+    "subject.process.parent.id": "2513",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "4EB1D85EEC9E71C6380D1BD880BAE8D75AA83A87",
+    "object.process.fullpath": "/usr/bin/sw_vers",
+    "object.process.name": "sw_vers",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "sw_vers -productVersion",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "2539",
+    "object.process.parent.id": "2513",
+    "msgid": "9",
+    "time": "2024-03-15T09:49:02.314Z",
+    "event_src.host": "127.0.0.1"
+}

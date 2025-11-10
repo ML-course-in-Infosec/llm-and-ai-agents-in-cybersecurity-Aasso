@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "263",
+    "subject.account.session_id": "158",
+    "subject.process.id": "158",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd",
+    "subject.process.name": "analyticsd",
+    "subject.process.path": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/",
+    "subject.process.hash": "UNKNOWN:B15495FCADCA931CECB2A9B73CE97DC1910055B9",
+    "object.fullpath": "/private/var/db/analyticsd/state.sqlite-wal",
+    "object.name": "state.sqlite-wal",
+    "object.path": "/private/var/db/analyticsd/",
+    "msgid": "33",
+    "time": "2024-03-19T09:25:00.731Z",
+    "event_src.host": "127.0.0.1"
+}

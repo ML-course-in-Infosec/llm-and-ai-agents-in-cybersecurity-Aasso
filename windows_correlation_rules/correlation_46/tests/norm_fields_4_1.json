@@ -1,0 +1,17 @@
+{
+  "time": "2024-06-04t20:00:27.7010188z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "win10-work.stand2008.local",
+  "event_src.id": "13",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.account.domain": "stand2008",
+  "subject.account.name": "администратор",
+  "subject.process.fullpath": "c:\\windows\\regedit.exe",
+  "subject.process.path": "c:\\windows\\",
+  "subject.process.name": "regedit.exe",
+  "subject.process.id": "3140",
+  "subject.process.guid": "{2b856446-3abf-665f-b600-000000001402}",
+  "object.path": "hklm\\system\\currentcontrolset\\control\\wmi\\autologger\\eventlog-microsoft-windows-sysmon-operational\\{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\\matchallkeyword"
+}

@@ -1,0 +1,4 @@
+Description: 'Обнаружен запуск неподписанных файлов через plist'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Plist_Unsigned_Execution'
+      EventDescription: 'Процесс {subject.process.name} запустил неподписанный файл {object.process.name}'

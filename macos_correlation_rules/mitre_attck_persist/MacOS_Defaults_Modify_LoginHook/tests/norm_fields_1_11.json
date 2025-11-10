@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "470",
+    "subject.process.id": "475",
+    "subject.process.parent.id": "470",
+    "subject.process.fullpath": "/bin/zsh",
+    "subject.process.name": "zsh",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:6141DE079756F94ACFA074801FC834C366FA2904",
+    "object.fullpath": "/dev/ttys000",
+    "object.name": "ttys000",
+    "object.path": "/dev/",
+    "msgid": "33",
+    "time": "2024-03-19T08:32:27.007Z",
+    "event_src.host": "127.0.0.1"
+}

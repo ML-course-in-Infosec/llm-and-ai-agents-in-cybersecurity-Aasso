@@ -1,0 +1,6 @@
+Description: 'The rule detects the receipt of credentials from a browser password store or password chain using the security utility'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Dump_Passwords_via_Security'
+      EventDescription: 'User {subject.account.id} used {alert.regex_match} command to obtain credentials from keychain using "security" utility on host {event_src.host}'
+    - LocalizationId: 'corrname_MacOS_Dump_Passwords_via_Security_2'
+      EventDescription: 'User {subject.account.id} used {alert.regex_match} to obtain credentials using the "security" utility on host {event_src.host}'

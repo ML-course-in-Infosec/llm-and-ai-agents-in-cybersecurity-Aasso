@@ -1,0 +1,4 @@
+Description: "Правило детектирует выполнение скриптов через plist, что является подозрительной активностью. \nАтакующие могут создавать или модифицировать агентов запуска для многократного выполнения полезной нагрузки в рамках закрепления на узле."
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Detect_Run_Script_via_plist'
+      EventDescription: 'Использование утилиты launchctl для запуска скрипта {object.process.name} через созданного агента запуска {datafield19} на узле {event_src.host}'

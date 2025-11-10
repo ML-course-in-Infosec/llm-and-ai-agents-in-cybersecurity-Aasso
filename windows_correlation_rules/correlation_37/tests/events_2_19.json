@@ -1,0 +1,118 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Sysmon",
+                "Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+            },
+            "EventID": "1",
+            "Version": "5",
+            "Level": "4",
+            "Task": "1",
+            "Opcode": "0",
+            "Keywords": "0x8000000000000000",
+            "TimeCreated": {
+                "SystemTime": "2019-08-03T12:08:13.6360892Z"
+            },
+            "EventRecordID": "5437",
+            "Correlation": null,
+            "Execution": {
+                "ProcessID": "2780",
+                "ThreadID": "3676"
+            },
+            "Channel": "Microsoft-Windows-Sysmon/Operational",
+            "Computer": "MSEDGEWIN10",
+            "Security": {
+                "UserID": "S-1-5-18"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "RuleName"
+                },
+                {
+                    "Name": "UtcTime",
+                    "text": "2019-08-03 12:08:13.624"
+                },
+                {
+                    "Name": "ProcessGuid",
+                    "text": "{747f3d96-792d-5d45-0000-00104f190601}"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "5336"
+                },
+                {
+                    "Name": "Image",
+                    "text": "C:\\Users\\IEUser\\Desktop\\UACME.exe"
+                },
+                {
+                    "Name": "FileVersion",
+                    "text": "3.1.9.1905"
+                },
+                {
+                    "Name": "Description",
+                    "text": "UACMe main module"
+                },
+                {
+                    "Name": "Product",
+                    "text": "UACMe"
+                },
+                {
+                    "Name": "Company",
+                    "text": "Hazardous Environments"
+                },
+                {
+                    "Name": "CommandLine",
+                    "text": "UACME.exe  22"
+                },
+                {
+                    "Name": "CurrentDirectory",
+                    "text": "C:\\Users\\IEUser\\Desktop\\"
+                },
+                {
+                    "Name": "User",
+                    "text": "MSEDGEWIN10\\IEUser"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{747f3d96-56a3-5d45-0000-0020fbd31800}"
+                },
+                {
+                    "Name": "LogonId",
+                    "text": "0x18d3fb"
+                },
+                {
+                    "Name": "TerminalSessionId",
+                    "text": "1"
+                },
+                {
+                    "Name": "IntegrityLevel",
+                    "text": "Medium"
+                },
+                {
+                    "Name": "Hashes",
+                    "text": "SHA1=9E57914D39FBFE785C915E225011892613C4714C,MD5=D57E778DF10F801F47119A04BE990FFD,SHA256=D76815CE3F4B9FE7A611D6F536F65AF313E2AB2F8BB52EF0998487D89A6E7378,IMPHASH=B6789EDFE23DDA911AE37C87444D3DCB"
+                },
+                {
+                    "Name": "ParentProcessGuid",
+                    "text": "{747f3d96-5a29-5d45-0000-0010deb99000}"
+                },
+                {
+                    "Name": "ParentProcessId",
+                    "text": "5780"
+                },
+                {
+                    "Name": "ParentImage",
+                    "text": "C:\\Windows\\System32\\cmd.exe"
+                },
+                {
+                    "Name": "ParentCommandLine",
+                    "text": "\"C:\\Windows\\system32\\cmd.exe\" "
+                }
+            ]
+        }
+    }
+}

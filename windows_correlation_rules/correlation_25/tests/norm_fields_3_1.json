@@ -1,0 +1,9 @@
+{
+  "time": "2021-08-16t14:30:58.9480233z",
+  "event_src.title": "microsoft-windows-powershell",
+  "event_src.subsys": "powershell",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "test_w10x64-130.testlab.org",
+  "event_src.id": "4103",
+  "event_src.category": "microsoft-windows-powershell/operational"
+}

@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "854",
+    "subject.process.id": "1932",
+    "subject.process.parent.id": "855",
+    "subject.process.fullpath": "/usr/bin/crontab",
+    "subject.process.name": "crontab",
+    "subject.process.path": "/usr/bin/",
+    "subject.process.hash": "UNKNOWN:96BCF70E095EB374148AE3BC8B2BE4F0AD2DD490",
+    "object.fullpath": "/usr/share/locale/UTF-8/LC_CTYPE",
+    "object.name": "LC_CTYPE",
+    "object.path": "/usr/share/locale/UTF-8/",
+    "msgid": "10",
+    "time": "2024-03-19T09:24:34.533Z",
+    "event_src.host": "127.0.0.1"
+}

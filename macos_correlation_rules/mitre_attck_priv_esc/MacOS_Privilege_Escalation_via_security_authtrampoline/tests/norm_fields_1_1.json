@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "494",
+    "subject.process.id": "850",
+    "subject.process.parent.id": "497",
+    "subject.process.fullpath": "/bin/zsh",
+    "subject.process.name": "zsh",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:6141DE079756F94ACFA074801FC834C366FA2904",
+    "object.hash": "5CF36F330BEC55DD91FF4E2907415F70069A45B0",
+    "object.process.fullpath": "/Users/user/Desktop/Auth",
+    "object.process.name": "Auth",
+    "object.process.path": "/Users/user/Desktop/",
+    "object.process.cmdline": "./Auth",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "850",
+    "object.process.parent.id": "497",
+    "msgid": "9",
+    "time": "2024-03-18T12:32:57.605Z",
+    "event_src.host": "127.0.0.1"
+}

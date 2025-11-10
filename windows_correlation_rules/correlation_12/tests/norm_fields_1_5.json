@@ -1,0 +1,15 @@
+{
+  "time": "2019-08-30 12:54:08.396725",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "msedgewin10",
+  "event_src.id": "11",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.process.fullpath": "c:\\windows\\system32\\rundll32.exe",
+  "subject.process.path": "c:\\windows\\system32\\",
+  "subject.process.name": "rundll32.exe",
+  "subject.process.id": "2888",
+  "subject.process.guid": "{747f3d96-1c70-5d69-0000-0010c9661f00}",
+  "object.path": "c:\\windows\\system32\\lsass.bin"
+}

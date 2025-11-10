@@ -1,0 +1,16 @@
+{
+  "time": "2023-05-17t12:07:45.7662329z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "win10x64-133.testlab.esc",
+  "event_src.id": "17",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.account.domain": "testlab",
+  "subject.account.name": "yfomina",
+  "subject.process.fullpath": "c:\\users\\yfomina\\downloads\\installer.exe",
+  "subject.process.path": "c:\\users\\yfomina\\downloads\\",
+  "subject.process.name": "installer.exe",
+  "subject.process.id": "5852",
+  "subject.process.guid": "{b56fc2d9-ab37-6464-5711-000000005e00}"
+}

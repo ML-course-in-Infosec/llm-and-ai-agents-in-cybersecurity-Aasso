@@ -1,0 +1,15 @@
+{
+  "time": "2019-03-17t20:18:05.0865600z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "pc04.example.corp",
+  "event_src.id": "13",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.process.fullpath": "c:\\users\\ieuser\\desktop\\rdpwrap-v1.6.2\\rdpwinst.exe",
+  "subject.process.path": "c:\\users\\ieuser\\desktop\\rdpwrap-v1.6.2\\",
+  "subject.process.name": "rdpwinst.exe",
+  "subject.process.id": "3700",
+  "subject.process.guid": "{365abb72-ab70-5c8e-0000-0010df1f0a00}",
+  "object.path": "hklm\\system\\currentcontrolset\\services\\termservice\\parameters\\servicedll"
+}

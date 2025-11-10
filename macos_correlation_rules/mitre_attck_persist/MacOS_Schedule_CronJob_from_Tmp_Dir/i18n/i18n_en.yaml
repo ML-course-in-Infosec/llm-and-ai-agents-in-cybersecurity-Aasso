@@ -1,0 +1,4 @@
+Description: 'An attacker could use the crontab utility to make persistence in system. Detection focuses on a cron tasks, loaded from temporary directories'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Schedule_CronJob_from_Tmp_Dir'
+      EventDescription: 'Crontab was used on macOS system. This mean the possible persistence created by attacker'

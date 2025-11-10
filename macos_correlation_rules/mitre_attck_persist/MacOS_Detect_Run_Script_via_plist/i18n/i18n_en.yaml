@@ -1,0 +1,4 @@
+Description: 'Rule detects scripts execution via plist, it is a suspicious activity. Adversaries may create or modify launch agents to repeatedly execute malicious payloads as part of persistence.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Detect_Run_Script_via_plist'
+      EventDescription: 'Using launchctl utility to run script {object.process.name} via created launch agent {datafield19} на узле {event_src.host}'

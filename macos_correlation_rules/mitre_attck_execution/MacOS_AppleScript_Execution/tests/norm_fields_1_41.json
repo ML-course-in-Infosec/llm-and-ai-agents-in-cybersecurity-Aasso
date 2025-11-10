@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "140",
+    "subject.process.id": "140",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/usr/sbin/cfprefsd",
+    "subject.process.name": "cfprefsd",
+    "subject.process.path": "/usr/sbin/",
+    "subject.process.hash": "UNKNOWN:2E192C814E248D3C5B9F9EE291357018666B7BDE",
+    "object.fullpath": "/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/analyticsd.plist.nyNfqks",
+    "object.name": "analyticsd.plist.nyNfqks",
+    "object.path": "/private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/",
+    "msgid": "13",
+    "time": "2024-03-12T10:54:10.078Z",
+    "event_src.host": "127.0.0.1"
+}

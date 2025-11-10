@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1948",
+    "subject.process.id": "1949",
+    "subject.process.parent.id": "1948",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "4EDDBD1F6566AA20F4CCBF53AFB2FE39945CE31C",
+    "object.process.fullpath": "/usr/bin/osascript",
+    "object.process.name": "osascript",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "osascript -e display dialog do shell script \"whoami\"",
+    "object.process.cwd": "/Users/user",
+    "object.process.id": "1949",
+    "object.process.parent.id": "1948",
+    "msgid": "9",
+    "time": "2024-03-19T09:25:00.678Z",
+    "event_src.host": "127.0.0.1"
+}

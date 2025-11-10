@@ -1,0 +1,28 @@
+ContentAutoName: MacOS_Schedule_CronJob_from_Tmp_Dir
+ExpertContext:
+    Created: 08.07.2024
+    Updated: 08.07.2024
+    KnowledgeHolders:
+        - Sergey Golub <@leitosama>
+    Usecases:
+        - Закрепление с помощью crontab
+    Falsepositives:
+        - Легитимные действия пользователя
+    References:
+        - https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1053.003/T1053.003.md
+        - https://github.com/SigmaHQ/sigma/blob/master/rules/macos/process_creation/proc_creation_macos_schedule_task_job_cron.yml
+    Improvements:
+        - Использование весов для /tmp или скрытого пути (.some-job)
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-202618821
+ContentRelations:
+    Implements:
+        ATTACK:
+            persistence:
+                - T1053.003
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Schedule_CronJob_from_Tmp_Dir"
+      LocalizationId: corrname_MacOS_Schedule_CronJob_from_Tmp_Dir

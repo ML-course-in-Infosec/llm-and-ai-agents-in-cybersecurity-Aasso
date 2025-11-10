@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "1",
+    "subject.process.id": "896",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/sbin/launchd",
+    "subject.process.name": "launchd",
+    "subject.process.path": "/sbin/",
+    "subject.process.hash": "UNKNOWN:A6055B6A5E35988A106539A473E953A534A42548",
+    "object.hash": "09BE1095B687E3B2DA24268F7F4A3FC6E9535888",
+    "object.process.fullpath": "/usr/libexec/xpcproxy",
+    "object.process.name": "xpcproxy",
+    "object.process.path": "/usr/libexec/",
+    "object.process.cmdline": "xpcproxy application.com.apple.ScriptEditor.id.AppBund.547251.547259",
+    "object.process.cwd": "/",
+    "object.process.id": "896",
+    "object.process.parent.id": "1",
+    "msgid": "9",
+    "time": "2024-03-12T10:54:07.396Z",
+    "event_src.host": "127.0.0.1"
+}

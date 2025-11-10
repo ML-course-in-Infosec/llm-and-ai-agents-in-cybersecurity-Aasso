@@ -1,0 +1,6 @@
+Description: 'Правило, после добавления агента запуска (plist) детектирует использование переменной окружения (DYLD_INSERT_LIBRARIES), указывающую на вредоносные библиотеки, которые могут инъекцией в процесс.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist'
+      EventDescription: 'Возможна инъекция в процесс {object.process.name}, который не имеет подписей, через созданного агента запуска {datafield19} на узле {event_src.host}'
+    - LocalizationId: 'corrname_MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist_2'
+      EventDescription: 'Возможна инъекция в процесс {object.process.name}, который имеет подпись ({datafield18}), через созданного агента запуска {datafield19} на узле {event_src.host}'

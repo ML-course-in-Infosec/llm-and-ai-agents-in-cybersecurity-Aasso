@@ -1,0 +1,85 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4663",
+            "Version": "1",
+            "Level": "0",
+            "Task": "12802",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2020-03-08T22:11:34.3405849Z"
+            },
+            "EventRecordID": "314462",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "160"
+            },
+            "Channel": "Security",
+            "Computer": "MSEDGEWIN10",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-3461203602-4096304019-2269080069-1000"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "IEUser"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "MSEDGEWIN10"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x33392"
+                },
+                {
+                    "Name": "ObjectServer",
+                    "text": "Security"
+                },
+                {
+                    "Name": "ObjectType",
+                    "text": "Process"
+                },
+                {
+                    "Name": "ObjectName",
+                    "text": "\\Device\\HarddiskVolume1\\Windows\\System32\\lsass.exe"
+                },
+                {
+                    "Name": "HandleId",
+                    "text": "0x558"
+                },
+                {
+                    "Name": "AccessList",
+                    "text": "%%4484"
+                },
+                {
+                    "Name": "AccessMask",
+                    "text": "0x10"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x1688"
+                },
+                {
+                    "Name": "ProcessName",
+                    "text": "C:\\Windows\\System32\\cscript.exe"
+                },
+                {
+                    "Name": "ResourceAttributes",
+                    "text": "-"
+                }
+            ]
+        }
+    }
+}

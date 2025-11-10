@@ -1,0 +1,59 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Service Control Manager",
+                "Guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",
+                "EventSourceName": "Service Control Manager"
+            },
+            "EventID": {
+                "Qualifiers": "16384",
+                "text": "7045"
+            },
+            "Version": "0",
+            "Level": "4",
+            "Task": "0",
+            "Opcode": "0",
+            "Keywords": "0x8080000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-05-17T10:24:33.2678382Z"
+            },
+            "EventRecordID": "117960",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "660",
+                "ThreadID": "6052"
+            },
+            "Channel": "System",
+            "Computer": "Win10x64-133.testlab.esc",
+            "Security": {
+                "UserID": "S-1-5-21-1129291328-2819992169-918366777-1113"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "ServiceName",
+                    "text": "fkkgxm"
+                },
+                {
+                    "Name": "ImagePath",
+                    "text": "cmd.exe /c echo fkkgxm >\\\\.\\pipe\\fkkgxm"
+                },
+                {
+                    "Name": "ServiceType",
+                    "text": "user mode service"
+                },
+                {
+                    "Name": "StartType",
+                    "text": "demand start"
+                },
+                {
+                    "Name": "AccountName",
+                    "text": "LocalSystem"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,4 @@
+Description: 'Потенциальное уклонение от обнаружение через технику самоудаления файла из системы'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Detection_Self_Deleting_File'
+      EventDescription: 'На узле {event_src.host} обнаружена потенциальная попытка уклонения от обнаружения, связанная с исполняемым файлом {subject.process.fullpath}  через технику самоудаления файла из системы'

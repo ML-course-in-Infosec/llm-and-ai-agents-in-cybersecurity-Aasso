@@ -1,0 +1,30 @@
+ContentAutoName: MacOS_Dump_Passwords_via_Security
+ExpertContext:
+    Created: 18.06.2024
+    Updated: 18.06.2024
+    KnowledgeHolders:
+        - Kirill Kiryanov
+    Usecases:
+        - Атакующие могут использовать команду find-internet-password/find-generic-password для получения пароля в кодировке base64
+        - Атакующие могут использовать команду dump-keychain чтобы сделать копию хранилища паролей для передачи на другой узел или же просто прочесть
+    Falsepositives: []
+    References:
+        - https://unit42.paloaltonetworks.com/mac-malware-steals-cryptocurrency-exchanges-cookies/
+        - https://www.unix.com/man-page/osx/1/security/
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - 9
+ObjectId: SEC-CR-847940186
+ContentRelations:
+    Implements:
+        ATTACK:
+            credential-access:
+                - T1555.001
+                - T1555.003
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Dump_Passwords_via_Security" and reason = "dump"
+      LocalizationId: corrname_MacOS_Dump_Passwords_via_Security
+    - Criteria: correlation_name = "MacOS_Dump_Passwords_via_Security" and reason = "find"
+      LocalizationId: corrname_MacOS_Dump_Passwords_via_Security_2

@@ -1,0 +1,4 @@
+Description: 'Rule detects password validation via sudo utility standart input. It makes possible to give worldlist as input and guess the password.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Validate_Passwords_from_stdin'
+      EventDescription: 'A suspicious way to validate local credentials with sudo utility on the host {event_src.host}'

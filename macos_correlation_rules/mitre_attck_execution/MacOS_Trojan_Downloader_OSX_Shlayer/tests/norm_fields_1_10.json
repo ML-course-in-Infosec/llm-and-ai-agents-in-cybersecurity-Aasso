@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "1032",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/usr/libexec/xpcproxy",
+    "subject.process.name": "xpcproxy",
+    "subject.process.path": "/usr/libexec/",
+    "subject.process.hash": "UNKNOWN:09BE1095B687E3B2DA24268F7F4A3FC6E9535888",
+    "object.hash": "CD309001750BCE8946CD379DD8EF374DF7C92AF5",
+    "object.process.fullpath": "/Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS/LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew",
+    "object.process.name": "LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew",
+    "object.process.path": "/Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS/",
+    "object.process.cmdline": "/bin/bash /Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS/LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew",
+    "object.process.cwd": "/",
+    "object.process.id": "1032",
+    "object.process.parent.id": "1",
+    "msgid": "9",
+    "time": "2024-03-12T13:23:23.310Z",
+    "event_src.host": "127.0.0.1"
+}

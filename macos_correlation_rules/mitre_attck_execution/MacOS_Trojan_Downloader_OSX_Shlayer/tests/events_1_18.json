@@ -1,0 +1,117 @@
+{
+    "schema_version": 1,
+    "mach_time": 19702648494,
+    "event_type": 13,
+    "thread": {
+        "thread_id": 9081
+    },
+    "version": 7,
+    "seq_num": 10,
+    "event": {
+        "create": {
+            "destination_type": 0,
+            "destination": {
+                "existing_file": {
+                    "path": "/private/var/db/oah/7d64f61495dd6a466e18b8585f8eba24eb8bfaf6033dcbf60f570aabeddf59db/669e72cf69c58c0952e93759bed121fdfe6a93c2ea6a915294a9fbdce13903db/dirname.aot.in_progress",
+                    "stat": {
+                        "st_blocks": 0,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777234,
+                        "st_uid": 441,
+                        "st_gid": 441,
+                        "st_ino": 552957,
+                        "st_birthtimespec": "2024-03-12T13:23:23.481831741Z",
+                        "st_flags": 524288,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2024-03-12T13:23:23.481831741Z",
+                        "st_ctimespec": "2024-03-12T13:23:23.481831741Z",
+                        "st_size": 0,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2024-03-12T13:23:23.481831741Z"
+                    },
+                    "path_truncated": false
+                }
+            },
+            "acl": null
+        }
+    },
+    "time": "2024-03-12T13:23:23.481849033Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.oahd",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570522369,
+        "executable": {
+            "path": "/usr/libexec/rosetta/oahd",
+            "stat": {
+                "st_blocks": 64,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777234,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312443491,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 113088,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-12T13:09:57.927980Z",
+        "is_platform_binary": true,
+        "group_id": 458,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 1114,
+            "ruid": 441,
+            "euid": 441,
+            "rgid": 441,
+            "auid": 4294967295,
+            "egid": 441,
+            "pid": 458
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 1114,
+            "ruid": 441,
+            "euid": 441,
+            "rgid": 441,
+            "auid": 4294967295,
+            "egid": 441,
+            "pid": 458
+        },
+        "session_id": 458,
+        "original_ppid": 1,
+        "cdhash": "CDC373A9C1934DC81FD898B8170CCF965EB5D57F",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 17
+}

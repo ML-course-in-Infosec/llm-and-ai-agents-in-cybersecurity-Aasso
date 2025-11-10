@@ -1,0 +1,18 @@
+{
+  "time": "2020-01-23t10:18:31.616030800z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "win10x64-133.testlab.org",
+  "event_src.id": "4688",
+  "event_src.category": "security",
+  "subject.process.cmdline": "\"c:\\users\\test-admin\\documents\\tools for raw events\\mimikatz\\x64\\mimikatz.exe\" privilege::debug",
+  "subject.process.id": "0x1530",
+  "object.account.name": "-",
+  "object.account.domain": "-",
+  "object.account.id": "s-1-0-0",
+  "subject.account.name": "test-admin",
+  "subject.account.domain": "testlab",
+  "subject.account.id": "s-1-5-21-3389064948-2957360831-125328159-1105",
+  "subject.account.session_id": "0x0"
+}

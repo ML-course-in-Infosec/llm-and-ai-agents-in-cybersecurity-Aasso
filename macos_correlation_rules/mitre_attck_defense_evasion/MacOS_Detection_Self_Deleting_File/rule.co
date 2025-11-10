@@ -1,0 +1,71 @@
+event File_Self_Removing:
+    key:
+        event_src.host
+    filter {
+        filter::NotFromCorrelator()
+        and event_src.title == "edr"
+        and id == "PT_Positive_Technologies_XDR_es_logger_file_removing"
+        and subject == "process"
+        and action == "remove"
+        and object == "file_object"
+        and status == "success"
+        # Проверка на самоудаляющийся файл
+        and lower(object.path + "/" + object.name) == lower(subject.process.fullpath)
+    }
+
+rule MacOS_Detection_Self_Deleting_File: File_Self_Removing
+
+    on File_Self_Removing {
+        
+        $object.fullpath = object.path + "/" + object.name
+        $subject.process.fullpath = subject.process.fullpath
+        
+        $subject = subject
+        $subject.account.id = subject.account.id
+        $subject.account.session_id = subject.account.session_id
+        $subject.process.hash = subject.process.hash
+        $subject.process.id = subject.process.id
+        $subject.process.name = subject.process.name
+        $subject.process.parent.id = subject.process.parent.id
+        $subject.process.path = subject.process.path
+
+        $datafield1 = datafield1
+        $datafield2 = datafield2
+        $datafield3 = datafield3
+        $datafield4 = datafield4
+        $datafield5 = datafield5 # является ли исполняемый файл предустановленным Apple в ОС
+        $datafield6 = datafield6
+        $datafield7 = datafield7
+        $datafield8 = datafield8
+        $datafield9 = datafield9
+        $datafield11 = datafield11 
+
+        $event_src.ip = event_src.ip
+        $event_src.hostname = event_src.hostname
+        $event_src.host = event_src.host
+        $event_src.asset = event_src.asset
+        $event_src.title = event_src.title
+        $event_src.subsys = event_src.subsys
+        $event_src.vendor = event_src.vendor
+        $event_src.category = event_src.category
+        $event_src.rule = event_src.rule
+
+        $alert.key = join([$subject.process.fullpath, $action, $object.fullpath, $event_src.host], "|")
+    }
+
+    emit {
+        $correlation_type = "incident"
+
+        $importance = "low"
+        $action = "remove"
+        $object = "file_object"
+        $status = "success"
+
+        $category.generic = "Attack"
+        $category.high = "Defense Evasion"
+
+        $incident.aggregation.key = join([$event_src.host, $subject.process.fullpath], "|")
+        $incident.severity = $importance
+        $incident.category = "SoftwareSuspiciousActivity"
+        $incident.aggregation.timeout = 2h
+    }

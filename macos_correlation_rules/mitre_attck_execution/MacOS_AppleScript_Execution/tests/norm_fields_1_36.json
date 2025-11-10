@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "896",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/Users/user/Documents/AppBund.app/Contents/MacOS/applet",
+    "subject.process.name": "applet",
+    "subject.process.path": "/Users/user/Documents/AppBund.app/Contents/MacOS/",
+    "subject.process.hash": "UNKNOWN:74351D4FEB22398C549526991DC15FD287FEEB43",
+    "object.process.fullpath": "/Users/user/Documents/AppBund.app/Contents/MacOS/applet",
+    "object.process.name": "applet",
+    "object.process.path": "/Users/user/Documents/AppBund.app/Contents/MacOS/",
+    "msgid": "11",
+    "time": "2024-03-12T10:54:09.983Z",
+    "event_src.host": "127.0.0.1"
+}

@@ -1,0 +1,27 @@
+ContentAutoName: MacOS_Prompting_for_Hidden_Text_Input_via_AppleScript
+ExpertContext:
+    Created: 08.07.2024
+    Updated: 10.07.2024
+    KnowledgeHolders:
+        - Kirill Shamko
+    Usecases:
+        - Правило детектирует AppleScript скрипт на вызов формы для ввода учетных данных
+    Falsepositives: []
+    References:
+        - https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/DisplayDialogsandAlerts.html
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-112174834
+ContentRelations:
+    Implements:
+        ATTACK:
+            credential-access:
+                - T1056.002
+            execution:
+                - T1059.002
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Prompting_for_Hidden_Text_Input_via_AppleScript"
+      LocalizationId: corrname_MacOS_Prompting_for_Hidden_Text_Input_via_AppleScript

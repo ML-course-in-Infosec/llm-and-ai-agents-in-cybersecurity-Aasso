@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "1556",
+    "subject.process.id": "3000",
+    "subject.process.parent.id": "2999",
+    "subject.process.fullpath": "/usr/bin/sudo",
+    "subject.process.name": "sudo",
+    "subject.process.path": "/usr/bin/",
+    "subject.process.hash": "UNKNOWN:C64A1CFD4895F18F2609937A7F324CC0CA2FC665",
+    "object.hash": "2984AECBCB894D2F45E2AAA5293D80831C91C59B",
+    "object.process.fullpath": "/bin/launchctl",
+    "object.process.name": "launchctl",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "launchctl load -w /Users/user/Library/LaunchAgents/a.plist",
+    "object.process.cwd": "/Users/user/Desktop/Siggen",
+    "object.process.id": "3000",
+    "object.process.parent.id": "2999",
+    "msgid": "9",
+    "time": "2024-03-07T12:25:23.061Z",
+    "event_src.host": "127.0.0.1"
+}

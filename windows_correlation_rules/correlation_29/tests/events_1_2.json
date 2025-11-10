@@ -1,0 +1,55 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4672",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12548",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2019-03-18T11:06:29.9115792Z"
+            },
+            "EventRecordID": "432904",
+            "Correlation": {
+                "ActivityID": "{661f2d37-d535-43f5-bae0-06be7e6614d7}"
+            },
+            "Execution": {
+                "ProcessID": "524",
+                "ThreadID": "2884"
+            },
+            "Channel": "Security",
+            "Computer": "PC01.example.corp",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-1587066498-1489273250-1035260531-1106"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "user01"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "EXAMPLE"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x4530f0f"
+                },
+                {
+                    "Name": "PrivilegeList",
+                    "text": "SeSecurityPrivilege SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeBackupPrivilege SeRestorePrivilege SeDebugPrivilege SeSystemEnvironmentPrivilege SeImpersonatePrivilege"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,4 @@
+Description: 'The rule detects account creation activity based on Windows security events'
+EventDescriptions:
+    - LocalizationId: 'corrname_correlation_53'
+      EventDescription: 'User {subject.account.name} executed {subject.process.name} with command {subject.process.cmdline} on host {event_src.hostname}'

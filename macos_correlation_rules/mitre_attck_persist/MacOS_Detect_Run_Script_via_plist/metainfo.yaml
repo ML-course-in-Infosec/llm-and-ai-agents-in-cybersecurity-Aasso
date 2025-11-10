@@ -1,0 +1,27 @@
+ContentAutoName: MacOS_Detect_Run_Script_via_plist
+ExpertContext:
+    Created: 19.06.2024
+    Updated: 21.06.2024
+    KnowledgeHolders:
+        - Kirill Shamko
+    Usecases:
+        - Злоумышленник может использовать утилиту "launchctl" для создания агентов запуска с полезной нагрузкой
+    Falsepositives:
+        - Создание и модификация легитимных агентов запуска
+    References:
+        - https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html
+        - https://docs.rapid7.com/insightidr/mac-suspicious-process/#suspicious-macos-process-launchd-starts-archive-utility
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-511507852
+ContentRelations:
+    Implements:
+        ATTACK:
+            persistence:
+                - T1543.001
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Detect_Run_Script_via_plist"
+      LocalizationId: corrname_MacOS_Detect_Run_Script_via_plist

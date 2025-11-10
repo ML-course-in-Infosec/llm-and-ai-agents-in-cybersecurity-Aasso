@@ -1,0 +1,118 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Sysmon",
+                "Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+            },
+            "EventID": "1",
+            "Version": "5",
+            "Level": "4",
+            "Task": "1",
+            "Opcode": "0",
+            "Keywords": "0x8000000000000000",
+            "TimeCreated": {
+                "SystemTime": "2019-08-03T12:08:20.7314164Z"
+            },
+            "EventRecordID": "5448",
+            "Correlation": null,
+            "Execution": {
+                "ProcessID": "2780",
+                "ThreadID": "3676"
+            },
+            "Channel": "Microsoft-Windows-Sysmon/Operational",
+            "Computer": "MSEDGEWIN10",
+            "Security": {
+                "UserID": "S-1-5-18"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "RuleName"
+                },
+                {
+                    "Name": "UtcTime",
+                    "text": "2019-08-03 12:08:20.405"
+                },
+                {
+                    "Name": "ProcessGuid",
+                    "text": "{747f3d96-7934-5d45-0000-0010a2a40701}"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "4964"
+                },
+                {
+                    "Name": "Image",
+                    "text": "C:\\Windows\\System32\\eventvwr.exe"
+                },
+                {
+                    "Name": "FileVersion",
+                    "text": "10.0.17763.1 (WinBuild.160101.0800)"
+                },
+                {
+                    "Name": "Description",
+                    "text": "Event Viewer Snapin Launcher"
+                },
+                {
+                    "Name": "Product",
+                    "text": "Microsoft® Windows® Operating System"
+                },
+                {
+                    "Name": "Company",
+                    "text": "Microsoft Corporation"
+                },
+                {
+                    "Name": "CommandLine",
+                    "text": "\"C:\\Windows\\system32\\eventvwr.exe\" "
+                },
+                {
+                    "Name": "CurrentDirectory",
+                    "text": "C:\\Windows\\system32\\"
+                },
+                {
+                    "Name": "User",
+                    "text": "MSEDGEWIN10\\IEUser"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{747f3d96-56a3-5d45-0000-0020b3d31800}"
+                },
+                {
+                    "Name": "LogonId",
+                    "text": "0x18d3b3"
+                },
+                {
+                    "Name": "TerminalSessionId",
+                    "text": "1"
+                },
+                {
+                    "Name": "IntegrityLevel",
+                    "text": "High"
+                },
+                {
+                    "Name": "Hashes",
+                    "text": "SHA1=1AF3BB8D63A0ED48DF1F1706B791404DEE28524F,MD5=43129C3BFC9746CE9FFE8E45D10FE050,SHA256=BC87E4F462F00B826EC09AC16B625D0F70439C48FC04A52A41B4CD9E78401F70,IMPHASH=5843AE9886BB500E05E07EE59BB5AD42"
+                },
+                {
+                    "Name": "ParentProcessGuid",
+                    "text": "{747f3d96-792d-5d45-0000-00104f190601}"
+                },
+                {
+                    "Name": "ParentProcessId",
+                    "text": "5336"
+                },
+                {
+                    "Name": "ParentImage",
+                    "text": "C:\\Users\\IEUser\\Desktop\\UACME.exe"
+                },
+                {
+                    "Name": "ParentCommandLine",
+                    "text": "UACME.exe  22"
+                }
+            ]
+        }
+    }
+}

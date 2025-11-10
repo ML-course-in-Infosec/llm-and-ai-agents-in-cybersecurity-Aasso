@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "441",
+    "subject.account.session_id": "458",
+    "subject.process.id": "1035",
+    "subject.process.parent.id": "458",
+    "subject.process.fullpath": "/usr/libexec/rosetta/oahd",
+    "subject.process.name": "oahd",
+    "subject.process.path": "/usr/libexec/rosetta/",
+    "subject.process.hash": "UNKNOWN:CDC373A9C1934DC81FD898B8170CCF965EB5D57F",
+    "object.hash": "ACB80E96E3E91B0D16453C7B88698C4CF33B0819",
+    "object.process.fullpath": "/usr/libexec/rosetta/oahd-helper",
+    "object.process.name": "oahd-helper",
+    "object.process.path": "/usr/libexec/rosetta/",
+    "object.process.cmdline": "oahd-helper 4 5",
+    "object.process.cwd": "/",
+    "object.process.id": "1035",
+    "object.process.parent.id": "458",
+    "msgid": "9",
+    "time": "2024-03-12T13:23:23.482Z",
+    "event_src.host": "127.0.0.1"
+}

@@ -1,0 +1,26 @@
+ContentAutoName: MacOS_Validate_Passwords_from_stdin
+ExpertContext:
+    Created: 02.07.2024
+    Updated: 03.07.2024
+    KnowledgeHolders:
+        - Kirill Shamko
+    Usecases:
+        - Валидация пароля через стандартный поток ввода является подозрительной активностью и требует мониторинга
+    Falsepositives:
+        - Нестандартный набор аргументов командной строки утилиты sudo
+    References:
+        - https://github.com/carlospolop/su-bruteforce
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-126714431
+ContentRelations:
+    Implements:
+        ATTACK:
+            credential-access:
+                - T1110.001
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Validate_Passwords_from_stdin"
+      LocalizationId: corrname_MacOS_Validate_Passwords_from_stdin

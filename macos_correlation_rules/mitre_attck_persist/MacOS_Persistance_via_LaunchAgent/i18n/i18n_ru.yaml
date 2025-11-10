@@ -1,0 +1,4 @@
+Description: 'Атакующие могут использовать .plist-файлы в директориях .*/Library/LaunchAgents для закрепления в системе'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Persistance_via_LaunchAgent'
+      EventDescription: 'Обнаружены признаки закрепления на узле {event_src.host} при помощи утилиты launchctl и файла настроек {object.name}'

@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "486",
+    "subject.process.id": "1587",
+    "subject.process.parent.id": "1586",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "4EDDBD1F6566AA20F4CCBF53AFB2FE39945CE31C",
+    "object.process.fullpath": "/usr/bin/osascript",
+    "object.process.name": "osascript",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "osascript -e set popup to display dialog \"Keychain Access wants to use the login keychain\" & return & return & \"Please enter the keychain password\" & return default answer \"\" with icon file \"System:Library:CoreServices:CoreTypes.bundle:Contents:Resources:FileVaultIcon.icns\" with title \"Authentication Needed\" with hidden answer",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "1587",
+    "object.process.parent.id": "1586",
+    "msgid": "9",
+    "time": "2024-03-11T09:11:42.811Z",
+    "event_src.host": "127.0.0.1"
+}

@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "924",
+    "subject.process.id": "1350",
+    "subject.process.parent.id": "925",
+    "subject.process.fullpath": "/bin/zsh",
+    "subject.process.name": "zsh",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:6141DE079756F94ACFA074801FC834C366FA2904",
+    "object.hash": "A09AFAD27F2DFD0CE1410259676632952B1749FB",
+    "object.process.fullpath": "/bin/sh",
+    "object.process.name": "sh",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "sh ./hidden.sh",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "1350",
+    "object.process.parent.id": "925",
+    "msgid": "9",
+    "time": "2024-03-12T14:33:32.993Z",
+    "event_src.host": "127.0.0.1"
+}

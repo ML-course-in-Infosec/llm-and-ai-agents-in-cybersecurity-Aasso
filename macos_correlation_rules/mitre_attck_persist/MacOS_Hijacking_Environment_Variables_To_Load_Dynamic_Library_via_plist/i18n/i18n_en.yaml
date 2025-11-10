@@ -1,0 +1,6 @@
+Description: 'Rule detects environment variable (DYLD_INSERT_LIBRARIES) to point to malicious libraries that could be injection after launch agent (plist) was added.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist'
+      EventDescription: 'Possible process injection into {object.process.name} that is not code signed via created launch agent {datafield19} на узле {event_src.host}'
+    - LocalizationId: 'corrname_MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist_2'
+      EventDescription: 'Possible process injection into {object.process.name} that is code signed ({datafield18}) via created launch agent {datafield19} на узле {event_src.host}'

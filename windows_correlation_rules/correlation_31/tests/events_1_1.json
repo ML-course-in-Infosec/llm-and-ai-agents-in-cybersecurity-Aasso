@@ -1,0 +1,143 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4624",
+            "Version": "2",
+            "Level": "0",
+            "Task": "12544",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2022-04-25T22:17:47.0581723Z"
+            },
+            "EventRecordID": "72742",
+            "Correlation": {
+                "ActivityID": "{6c67e3ee-58ed-0002-0de4-676ced58d801}"
+            },
+            "Execution": {
+                "ProcessID": "680",
+                "ThreadID": "768"
+            },
+            "Channel": "Security",
+            "Computer": "02694w-win10.threebeesco.com",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-0-0"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "-"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "-"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x0"
+                },
+                {
+                    "Name": "TargetUserSid",
+                    "text": "S-1-5-21-308926384-506822093-3341789130-500"
+                },
+                {
+                    "Name": "TargetUserName",
+                    "text": "Administrator"
+                },
+                {
+                    "Name": "TargetDomainName",
+                    "text": "THREEBEESCO.COM"
+                },
+                {
+                    "Name": "TargetLogonId",
+                    "text": "0x8a38de"
+                },
+                {
+                    "Name": "LogonType",
+                    "text": "3"
+                },
+                {
+                    "Name": "LogonProcessName",
+                    "text": "Kerberos"
+                },
+                {
+                    "Name": "AuthenticationPackageName",
+                    "text": "Kerberos"
+                },
+                {
+                    "Name": "WorkstationName",
+                    "text": "-"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{35d5e180-95bd-9ed7-7efe-c355d7215a87}"
+                },
+                {
+                    "Name": "TransmittedServices",
+                    "text": "-"
+                },
+                {
+                    "Name": "LmPackageName",
+                    "text": "-"
+                },
+                {
+                    "Name": "KeyLength",
+                    "text": "0"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x0"
+                },
+                {
+                    "Name": "ProcessName",
+                    "text": "-"
+                },
+                {
+                    "Name": "IpAddress",
+                    "text": "127.0.0.1"
+                },
+                {
+                    "Name": "IpPort",
+                    "text": "50163"
+                },
+                {
+                    "Name": "ImpersonationLevel",
+                    "text": "%%1833"
+                },
+                {
+                    "Name": "RestrictedAdminMode",
+                    "text": "-"
+                },
+                {
+                    "Name": "TargetOutboundUserName",
+                    "text": "-"
+                },
+                {
+                    "Name": "TargetOutboundDomainName",
+                    "text": "-"
+                },
+                {
+                    "Name": "VirtualAccount",
+                    "text": "%%1843"
+                },
+                {
+                    "Name": "TargetLinkedLogonId",
+                    "text": "0x0"
+                },
+                {
+                    "Name": "ElevatedToken",
+                    "text": "%%1842"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+ContentAutoName: MacOS_SheduledTask_via_At
+ExpertContext:
+    Created: 29.06.2024
+    Updated: 30.06.2024
+    KnowledgeHolders:
+        - artemcun
+    Usecases:
+        - Атакующие могут использовать команду at для создания задач с целью закрепления в системе, либо исполнения вредоноса
+    Falsepositives: []
+    References: []
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - 9
+ObjectId: SEC-CR-875833521
+ContentRelations:
+    Implements:
+        ATTACK:
+            execution:
+                - T1053.002
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_SheduledTask_via_At"
+      LocalizationId: corrname_MacOS_SheduledTask_via_At

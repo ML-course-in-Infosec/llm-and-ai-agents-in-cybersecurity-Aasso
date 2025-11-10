@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "3111",
+    "subject.process.id": "3255",
+    "subject.process.parent.id": "3253",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "931D70834DFD19C54793528DF3543C3D8DCA8975",
+    "object.process.fullpath": "/usr/bin/dscl",
+    "object.process.name": "dscl",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "dscl /LDAPv3/10.0.1.42/Groups/admin authonly user 123qwe",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "3255",
+    "object.process.parent.id": "3253",
+    "msgid": "9",
+    "time": "2024-03-11T13:01:03.167Z",
+    "event_src.host": "127.0.0.1"
+}

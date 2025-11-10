@@ -1,0 +1,117 @@
+{
+    "schema_version": 1,
+    "mach_time": 40937704895,
+    "event_type": 13,
+    "thread": {
+        "thread_id": 13072
+    },
+    "version": 7,
+    "seq_num": 2,
+    "event": {
+        "create": {
+            "destination_type": 0,
+            "destination": {
+                "existing_file": {
+                    "path": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/com.apple.syncdefaultsd/TemporaryItems/NSIRD_syncdefaultsd_RgQxCJ/com.apple.finder",
+                    "stat": {
+                        "st_blocks": 0,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777234,
+                        "st_uid": 501,
+                        "st_gid": 20,
+                        "st_ino": 547442,
+                        "st_birthtimespec": "2024-03-12T10:54:07.193579976Z",
+                        "st_flags": 0,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2024-03-12T10:54:07.193579976Z",
+                        "st_ctimespec": "2024-03-12T10:54:07.193579976Z",
+                        "st_size": 0,
+                        "st_gen": 0,
+                        "st_mode": 33188,
+                        "st_atimespec": "2024-03-12T10:54:07.193579976Z"
+                    },
+                    "path_truncated": false
+                }
+            },
+            "acl": null
+        }
+    },
+    "time": "2024-03-12T10:54:07.193609141Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.syncdefaultsd",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd",
+            "stat": {
+                "st_blocks": 640,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777234,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312354969,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 816416,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-12T10:25:55.251282Z",
+        "is_platform_binary": true,
+        "group_id": 407,
+        "audit_token": {
+            "asid": 100004,
+            "pidversion": 974,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 407
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100004,
+            "pidversion": 974,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 407
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "09FF2E584BF28DD38239E639B64AD4DC2AE2A6B7",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 2
+}

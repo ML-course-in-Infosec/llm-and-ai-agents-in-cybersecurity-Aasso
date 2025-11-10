@@ -1,0 +1,18 @@
+{
+  "time": "2023-06-05t08:46:55.3231989z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "win10-work.stand2008.local",
+  "event_src.id": "4688",
+  "event_src.category": "security",
+  "subject.process.cmdline": "c:\\windows\\system32\\vssvc.exe",
+  "subject.process.id": "0x344",
+  "object.account.name": "-",
+  "object.account.domain": "-",
+  "object.account.id": "s-1-0-0",
+  "subject.account.name": "win10-work$",
+  "subject.account.domain": "stand2008",
+  "subject.account.id": "s-1-5-18",
+  "subject.account.session_id": "0x0"
+}

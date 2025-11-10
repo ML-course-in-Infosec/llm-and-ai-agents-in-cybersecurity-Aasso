@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "1",
+    "subject.process.id": "1",
+    "subject.process.parent.id": "0",
+    "subject.process.fullpath": "/sbin/launchd",
+    "subject.process.name": "launchd",
+    "subject.process.path": "/sbin/",
+    "subject.process.hash": "UNKNOWN:A6055B6A5E35988A106539A473E953A534A42548",
+    "object.fullpath": "/private/var/log/com.apple.xpc.launchd/launchd.log",
+    "object.name": "launchd.log",
+    "object.path": "/private/var/log/com.apple.xpc.launchd/",
+    "msgid": "33",
+    "time": "2024-03-18T09:33:51.247Z",
+    "event_src.host": "127.0.0.1"
+}

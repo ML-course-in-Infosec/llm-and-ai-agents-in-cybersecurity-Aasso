@@ -1,0 +1,89 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4657",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12801",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-07-31T14:01:31.0412675Z"
+            },
+            "EventRecordID": "31546236",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "308"
+            },
+            "Channel": "Security",
+            "Computer": "ARM-DNS-ADMIN.stand2008.local",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-18"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "ARM-DNS-ADMIN$"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "STAND2008"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x3e7"
+                },
+                {
+                    "Name": "ObjectName",
+                    "text": "\\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\Services\\MsKeyboardFilter"
+                },
+                {
+                    "Name": "ObjectValueName",
+                    "text": "ImagePath"
+                },
+                {
+                    "Name": "HandleId",
+                    "text": "0x83c"
+                },
+                {
+                    "Name": "OperationType",
+                    "text": "%%1905"
+                },
+                {
+                    "Name": "OldValueType",
+                    "text": "%%1874"
+                },
+                {
+                    "Name": "OldValue",
+                    "text": "%SystemRoot%\\system32\\svchost.exe -k netsvcs -p"
+                },
+                {
+                    "Name": "NewValueType",
+                    "text": "%%1874"
+                },
+                {
+                    "Name": "NewValue",
+                    "text": "c:\\windows\\system32\\cmd.exe /c whoami"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x2ec"
+                },
+                {
+                    "Name": "ProcessName",
+                    "text": "C:\\Windows\\System32\\services.exe"
+                }
+            ]
+        }
+    }
+}

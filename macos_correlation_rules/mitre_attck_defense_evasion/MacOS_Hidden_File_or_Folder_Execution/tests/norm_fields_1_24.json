@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "924",
+    "subject.process.id": "1351",
+    "subject.process.parent.id": "1350",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "0370C834F53F7CAE1812E4B8EF2D6077A414A2ED",
+    "object.process.fullpath": "/bin/mkdir",
+    "object.process.name": "mkdir",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "mkdir /Users/user/Documents/.androidStudio",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "1351",
+    "object.process.parent.id": "1350",
+    "msgid": "9",
+    "time": "2024-03-12T14:33:32.997Z",
+    "event_src.host": "127.0.0.1"
+}

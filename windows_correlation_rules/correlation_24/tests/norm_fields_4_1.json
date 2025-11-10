@@ -1,0 +1,8 @@
+{
+  "time": "2023-06-05t08:57:57.8906250z",
+  "event_src.title": "service control manager",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "dc01.stand2008.local",
+  "event_src.id": "{'qualifiers': '16384', 'text': '7036'}",
+  "event_src.category": "system"
+}

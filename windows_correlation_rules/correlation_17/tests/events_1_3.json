@@ -1,0 +1,112 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4624",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12544",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-06-13T08:03:45.0937500Z"
+            },
+            "EventRecordID": "11412796",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "512",
+                "ThreadID": "1208"
+            },
+            "Channel": "Security",
+            "Computer": "dc01.stand2008.local",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-0-0"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "-"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "-"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x0"
+                },
+                {
+                    "Name": "TargetUserSid",
+                    "text": "S-1-5-21-3800063338-4262557262-2801230003-1603"
+                },
+                {
+                    "Name": "TargetUserName",
+                    "text": "adm_back"
+                },
+                {
+                    "Name": "TargetDomainName",
+                    "text": "STAND2008"
+                },
+                {
+                    "Name": "TargetLogonId",
+                    "text": "0x97f06"
+                },
+                {
+                    "Name": "LogonType",
+                    "text": "3"
+                },
+                {
+                    "Name": "LogonProcessName",
+                    "text": "Kerberos"
+                },
+                {
+                    "Name": "AuthenticationPackageName",
+                    "text": "Kerberos"
+                },
+                {
+                    "Name": "WorkstationName"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{2a0e1034-b8ef-65ad-afa3-48bb81157893}"
+                },
+                {
+                    "Name": "TransmittedServices",
+                    "text": "-"
+                },
+                {
+                    "Name": "LmPackageName",
+                    "text": "-"
+                },
+                {
+                    "Name": "KeyLength",
+                    "text": "0"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x0"
+                },
+                {
+                    "Name": "ProcessName",
+                    "text": "-"
+                },
+                {
+                    "Name": "IpAddress",
+                    "text": "192.168.224.50"
+                },
+                {
+                    "Name": "IpPort",
+                    "text": "54783"
+                }
+            ]
+        }
+    }
+}

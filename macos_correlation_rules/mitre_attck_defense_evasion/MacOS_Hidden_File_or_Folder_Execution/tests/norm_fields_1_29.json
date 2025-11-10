@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "924",
+    "subject.process.id": "1353",
+    "subject.process.parent.id": "1350",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "545E262A8C6BD124C629F76858B6D164CEAD9497",
+    "object.process.fullpath": "/Users/user/Documents/.androidStudio/emu",
+    "object.process.name": "emu",
+    "object.process.path": "/Users/user/Documents/.androidStudio/",
+    "object.process.cmdline": "/Users/user/Documents/.androidStudio/emu",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "1353",
+    "object.process.parent.id": "1350",
+    "msgid": "9",
+    "time": "2024-03-12T14:33:33.006Z",
+    "event_src.host": "127.0.0.1"
+}

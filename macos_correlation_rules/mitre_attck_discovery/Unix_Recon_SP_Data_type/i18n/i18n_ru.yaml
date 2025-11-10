@@ -1,0 +1,4 @@
+Description: 'Обнаружено подозрительное получение информации о системе с помощью bash-скриптов'
+EventDescriptions:
+    - LocalizationId: 'corrname_Unix_Recon_SP_Data_type'
+      EventDescription: 'На узле {event_src.host} обнаружено подозрительное получение информации о системе с помощью bash-скриптов'

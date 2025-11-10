@@ -1,0 +1,81 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4663",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12800",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2019-04-27T19:31:15.3550630Z"
+            },
+            "EventRecordID": "4988",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "68"
+            },
+            "Channel": "Security",
+            "Computer": "IEWIN7",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-3583694148-1414552638-2922671848-1000"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "IEUser"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "IEWIN7"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0xffa8"
+                },
+                {
+                    "Name": "ObjectServer",
+                    "text": "Security"
+                },
+                {
+                    "Name": "ObjectType",
+                    "text": "File"
+                },
+                {
+                    "Name": "ObjectName",
+                    "text": "C:\\Users\\IEUser\\AppData\\Roaming\\Opera Software\\Opera Stable\\Login Data"
+                },
+                {
+                    "Name": "HandleId",
+                    "text": "0x50"
+                },
+                {
+                    "Name": "AccessList",
+                    "text": "%%4416"
+                },
+                {
+                    "Name": "AccessMask",
+                    "text": "0x1"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x134c"
+                },
+                {
+                    "Name": "ProcessName",
+                    "text": "C:\\Users\\Defau1t\\wsus.exe"
+                }
+            ]
+        }
+    }
+}

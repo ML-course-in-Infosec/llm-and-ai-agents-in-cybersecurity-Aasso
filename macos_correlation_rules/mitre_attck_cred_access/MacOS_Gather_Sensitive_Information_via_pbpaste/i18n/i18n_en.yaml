@@ -1,0 +1,4 @@
+Description: 'Rule detects pbpaste utility execution as is or via script that is considered as suspicious activity. Adversaries can use the utility to grab clipboard contents, e.g. credentials.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Gather_Sensitive_Information_via_pbpaste'
+      EventDescription: 'Suspicious {object.process.cmdline} command execution on the host {event_src.host}'

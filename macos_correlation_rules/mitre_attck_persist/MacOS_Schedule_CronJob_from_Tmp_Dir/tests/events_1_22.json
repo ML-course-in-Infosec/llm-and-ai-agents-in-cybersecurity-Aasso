@@ -1,0 +1,113 @@
+{
+    "schema_version": 1,
+    "mach_time": 111018081275,
+    "event_type": 33,
+    "thread": {
+        "thread_id": 22481
+    },
+    "version": 7,
+    "seq_num": 1058,
+    "event": {
+        "write": {
+            "target": {
+                "path": "/private/var/log/com.apple.xpc.launchd/launchd.log",
+                "stat": {
+                    "st_blocks": 6160,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777230,
+                    "st_uid": 0,
+                    "st_gid": 0,
+                    "st_ino": 585823,
+                    "st_birthtimespec": "2024-03-19T08:07:56.304449583Z",
+                    "st_flags": 0,
+                    "st_nlink": 1,
+                    "st_mtimespec": "2024-03-19T09:24:44.751306491Z",
+                    "st_ctimespec": "2024-03-19T09:24:44.751306491Z",
+                    "st_size": 2649132,
+                    "st_gen": 0,
+                    "st_mode": 33188,
+                    "st_atimespec": "2024-03-19T08:07:56.304449583Z"
+                },
+                "path_truncated": false
+            }
+        }
+    },
+    "time": "2024-03-19T09:25:00.670676711Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.xpc.launchd",
+        "parent_audit_token": {
+            "asid": 0,
+            "pidversion": 0,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 0
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/sbin/launchd",
+            "stat": {
+                "st_blocks": 960,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777230,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312435374,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 1145264,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 0,
+        "tty": null,
+        "start_time": "2024-03-19T08:07:55.099037Z",
+        "is_platform_binary": true,
+        "group_id": 1,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "session_id": 1,
+        "original_ppid": 0,
+        "cdhash": "A6055B6A5E35988A106539A473E953A534A42548",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 1689
+}

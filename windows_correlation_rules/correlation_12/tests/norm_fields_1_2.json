@@ -1,0 +1,20 @@
+{
+  "time": "2019-08-30 12:54:08.171875",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "msedgewin10",
+  "event_src.id": "7",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.process.fullpath": "c:\\windows\\system32\\cscript.exe",
+  "subject.process.path": "c:\\windows\\system32\\",
+  "subject.process.name": "cscript.exe",
+  "subject.process.version": "5.812.10240.16384",
+  "subject.process.id": "2576",
+  "subject.process.guid": "{747f3d96-1c6f-5d69-0000-0010323c1f00}",
+  "subject.process.hash.md5": "3f4db17e9534db1ceda28ff77c27f535",
+  "subject.process.hash.sha1": "5b139e692d2a376cca16d536612ef87ad946ec6b",
+  "subject.process.hash.sha256": "14a2c790e3e82daf7918b61ab79f84228e7ca4494f5c2d311a1179cca67b02c2",
+  "subject.process.hash.imphash": "c928d4d30d6b6fc0a3b011aa381044ca",
+  "subject.process.meta": "description:windows &#174; script component runtime | product:microsoft &#174; windows &#174; script component runtime | company:microsoft corporation"
+}

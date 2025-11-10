@@ -1,0 +1,83 @@
+event Cfprefsd_Modify_loginwindow_plist:
+    key:
+        event_src.host
+    filter {
+        filter::NotFromCorrelator()
+        and action == "modify"
+        and subject.process.fullpath == "/usr/sbin/cfprefsd"
+        and (find_substr(object.name,"com.apple.loginwindow.plist") == 0)
+    }
+
+rule MacOS_Modify_loginwindow_plist: Cfprefsd_Modify_loginwindow_plist
+
+    init {
+        $labels = "w_auto"
+    }
+
+    on Cfprefsd_Modify_loginwindow_plist {
+        $action = action
+        $object = object
+        $status = status
+
+        $subject.account.name = subject.account.name
+        $subject.account.fullname = subject.account.fullname
+        $subject.account.domain = subject.account.domain
+        $subject.account.session_id = subject.account.session_id
+        $subject.account.id = subject.account.id
+        $subject.account.privileges = subject.account.privileges
+
+        $subject.process.id = subject.process.id
+        $subject.process.name = subject.process.name
+        $subject.process.path = subject.process.path
+        $subject.process.fullpath = subject.process.fullpath
+        $subject.process.hash = subject.process.hash
+        $subject.process.version = subject.process.version
+        $subject.process.cmdline = subject.process.cmdline
+        $subject.process.guid = subject.process.guid
+        $subject.process.meta = subject.process.meta
+        $subject.process.original_name = subject.process.original_name
+        $subject.process.cwd = subject.process.cwd
+        $subject.process.chain = subject.process.chain
+
+        $subject.process.parent.id = subject.process.parent.id
+        $subject.process.parent.name = subject.process.parent.name
+        $subject.process.parent.path = subject.process.parent.path
+        $subject.process.parent.fullpath = subject.process.parent.fullpath
+        $subject.process.parent.cmdline = subject.process.parent.cmdline
+
+        $object.fullpath = object.fullpath
+        $object.name = object.name
+        $object.path = object.path
+
+        $event_src.ip = event_src.ip
+        $event_src.hostname = event_src.hostname
+        $event_src.host = event_src.host
+        $event_src.asset = event_src.asset
+        $event_src.title = event_src.title
+        $event_src.subsys = event_src.subsys
+        $event_src.vendor = event_src.vendor
+        $event_src.category = event_src.category
+        $event_src.rule = event_src.rule
+
+        $datafield1 = datafield1
+        $datafield2 = datafield2
+        $datafield3 = datafield3
+        $datafield4 = datafield4
+        $datafield5 = datafield5
+        $datafield6 = datafield6
+        $datafield7 = datafield7
+        $datafield8 = datafield8
+    }
+
+    emit {
+        # Обязательные поля корреляционного события
+        $correlation_type = "event"
+        $importance = "medium"
+
+        $category.generic = "Attack"
+        $category.high = "Persistence"
+        $category.low = "Boot or Logon Initialization Scripts: Login Hook"
+        
+        $incident.severity = $importance
+        
+    }

@@ -1,0 +1,122 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Sysmon",
+                "Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+            },
+            "EventID": "1",
+            "Version": "5",
+            "Level": "4",
+            "Task": "1",
+            "Opcode": "0",
+            "Keywords": "0x8000000000000000",
+            "TimeCreated": {
+                "SystemTime": "2020-04-25T22:19:23.8762823Z"
+            },
+            "EventRecordID": "27388",
+            "Correlation": null,
+            "Execution": {
+                "ProcessID": "2796",
+                "ThreadID": "3572"
+            },
+            "Channel": "Microsoft-Windows-Sysmon/Operational",
+            "Computer": "MSEDGEWIN10",
+            "Security": {
+                "UserID": "S-1-5-18"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "RuleName"
+                },
+                {
+                    "Name": "UtcTime",
+                    "text": "2020-04-25 22:19:16.240"
+                },
+                {
+                    "Name": "ProcessGuid",
+                    "text": "{747f3d96-b764-5ea4-0000-001096530000}"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "568"
+                },
+                {
+                    "Name": "Image",
+                    "text": "C:\\Windows\\System32\\winlogon.exe"
+                },
+                {
+                    "Name": "FileVersion",
+                    "text": "10.0.17763.1075 (WinBuild.160101.0800)"
+                },
+                {
+                    "Name": "Description",
+                    "text": "Windows Logon Application"
+                },
+                {
+                    "Name": "Product",
+                    "text": "Microsoft® Windows® Operating System"
+                },
+                {
+                    "Name": "Company",
+                    "text": "Microsoft Corporation"
+                },
+                {
+                    "Name": "OriginalFileName",
+                    "text": "WINLOGON.EXE"
+                },
+                {
+                    "Name": "CommandLine",
+                    "text": "winlogon.exe"
+                },
+                {
+                    "Name": "CurrentDirectory",
+                    "text": "C:\\Windows\\system32\\"
+                },
+                {
+                    "Name": "User",
+                    "text": "NT AUTHORITY\\SYSTEM"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{747f3d96-b764-5ea4-0000-0020e7030000}"
+                },
+                {
+                    "Name": "LogonId",
+                    "text": "0x3e7"
+                },
+                {
+                    "Name": "TerminalSessionId",
+                    "text": "1"
+                },
+                {
+                    "Name": "IntegrityLevel",
+                    "text": "System"
+                },
+                {
+                    "Name": "Hashes",
+                    "text": "SHA1=573ED5AED255DCEC948BCEA8C28EC9F3802A2E64,MD5=E8B1A6B8C6EA5972C123A816DF237AF8,SHA256=290C8C4B387B669B3988938D0083AA4B210365FB0855EAE010F49062A9DDEB04,IMPHASH=A5F3EBEF8618DCA7C7ACCF623BABBB86"
+                },
+                {
+                    "Name": "ParentProcessGuid",
+                    "text": "{747f3d96-b764-5ea4-0000-0010794d0000}"
+                },
+                {
+                    "Name": "ParentProcessId",
+                    "text": "460"
+                },
+                {
+                    "Name": "ParentImage",
+                    "text": "C:\\Windows\\System32\\smss.exe"
+                },
+                {
+                    "Name": "ParentCommandLine",
+                    "text": "\\SystemRoot\\System32\\smss.exe 000000d8 00000084 "
+                }
+            ]
+        }
+    }
+}

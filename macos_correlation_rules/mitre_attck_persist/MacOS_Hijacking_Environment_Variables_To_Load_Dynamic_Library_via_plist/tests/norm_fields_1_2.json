@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "2465",
+    "subject.process.id": "2465",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/usr/libexec/xpcproxy",
+    "subject.process.name": "xpcproxy",
+    "subject.process.path": "/usr/libexec/",
+    "subject.process.hash": "UNKNOWN:09BE1095B687E3B2DA24268F7F4A3FC6E9535888",
+    "object.hash": "0000000000000000000000000000000000000000",
+    "object.process.fullpath": "/Applications/Telegram.app/Contents/MacOS/Telegram",
+    "object.process.name": "Telegram",
+    "object.process.path": "/Applications/Telegram.app/Contents/MacOS/",
+    "object.process.cmdline": "/Applications/Telegram.app/Contents/MacOS/Telegram",
+    "object.process.cwd": "/",
+    "object.process.id": "2465",
+    "object.process.parent.id": "1",
+    "msgid": "9",
+    "time": "2024-03-12T13:03:16.168Z",
+    "event_src.host": "127.0.0.1"
+}

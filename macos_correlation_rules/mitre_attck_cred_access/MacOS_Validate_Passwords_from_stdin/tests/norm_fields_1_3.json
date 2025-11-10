@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "2819",
+    "subject.process.id": "2952",
+    "subject.process.parent.id": "2950",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "C64A1CFD4895F18F2609937A7F324CC0CA2FC665",
+    "object.process.fullpath": "/usr/bin/sudo",
+    "object.process.name": "sudo",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "sudo -S chown root /Users/user/Desktop/ss.txt",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "2952",
+    "object.process.parent.id": "2950",
+    "msgid": "9",
+    "time": "2024-03-11T12:51:34.184Z",
+    "event_src.host": "127.0.0.1"
+}

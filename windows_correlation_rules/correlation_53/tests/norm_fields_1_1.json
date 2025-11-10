@@ -1,0 +1,15 @@
+{
+  "time": "2020-09-16t09:31:19.1332724z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "01566s-win16-ir.threebeesco.com",
+  "event_src.id": "4720",
+  "event_src.category": "security",
+  "object.account.name": "$",
+  "object.account.domain": "3b",
+  "object.account.id": "s-1-5-21-308926384-506822093-3341789130-107103",
+  "subject.account.name": "01566s-win16-ir$",
+  "subject.account.domain": "3b",
+  "subject.account.id": "s-1-5-18"
+}

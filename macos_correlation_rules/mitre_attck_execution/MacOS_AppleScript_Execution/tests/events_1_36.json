@@ -1,0 +1,157 @@
+{
+    "schema_version": 1,
+    "mach_time": 41004675025,
+    "event_type": 11,
+    "thread": {
+        "thread_id": 13235
+    },
+    "version": 7,
+    "seq_num": 6,
+    "event": {
+        "fork": {
+            "child": {
+                "signing_id": "AppletStub",
+                "parent_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2294,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 896
+                },
+                "codesigning_flags": 570556419,
+                "executable": {
+                    "path": "/Users/user/Documents/AppBund.app/Contents/MacOS/applet",
+                    "stat": {
+                        "st_blocks": 200,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777234,
+                        "st_uid": 501,
+                        "st_gid": 20,
+                        "st_ino": 547259,
+                        "st_birthtimespec": "2024-03-12T10:52:45.598873799Z",
+                        "st_flags": 0,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2024-03-12T10:52:45.599270567Z",
+                        "st_ctimespec": "2024-03-12T10:52:45.599346895Z",
+                        "st_size": 99064,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2024-03-12T10:54:07.408626908Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 896,
+                "tty": null,
+                "start_time": "2024-03-12T10:54:09.982751Z",
+                "is_platform_binary": false,
+                "group_id": 896,
+                "audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2310,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 902
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2294,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 896
+                },
+                "session_id": 1,
+                "original_ppid": 896,
+                "cdhash": "74351D4FEB22398C549526991DC15FD287FEEB43",
+                "team_id": null
+            }
+        }
+    },
+    "time": "2024-03-12T10:54:09.983864660Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "AppletStub",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570556419,
+        "executable": {
+            "path": "/Users/user/Documents/AppBund.app/Contents/MacOS/applet",
+            "stat": {
+                "st_blocks": 200,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777234,
+                "st_uid": 501,
+                "st_gid": 20,
+                "st_ino": 547259,
+                "st_birthtimespec": "2024-03-12T10:52:45.598873799Z",
+                "st_flags": 0,
+                "st_nlink": 1,
+                "st_mtimespec": "2024-03-12T10:52:45.599270567Z",
+                "st_ctimespec": "2024-03-12T10:52:45.599346895Z",
+                "st_size": 99064,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2024-03-12T10:54:07.408626908Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-12T10:54:07.395643Z",
+        "is_platform_binary": false,
+        "group_id": 896,
+        "audit_token": {
+            "asid": 100004,
+            "pidversion": 2294,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 896
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100004,
+            "pidversion": 2294,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 896
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "74351D4FEB22398C549526991DC15FD287FEEB43",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 35
+}

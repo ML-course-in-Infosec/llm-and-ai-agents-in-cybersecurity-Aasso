@@ -1,0 +1,24 @@
+ContentAutoName: MacOS_Persistance_via_LaunchAgent
+ExpertContext:
+    Created: 30.06.2024
+    Updated: 08.07.2024
+    KnowledgeHolders:
+        - Psych0S0cial
+    Usecases:
+        - Атакующие могут создавать .plist-файлы в директориях .*/Library/LaunchAgents для закрепления в системе
+    Falsepositives: []
+    References: []
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-472843191
+ContentRelations:
+    Implements:
+        ATTACK:
+            persistence:
+                - T1543
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Persistance_via_LaunchAgent"
+      LocalizationId: corrname_MacOS_Persistance_via_LaunchAgent

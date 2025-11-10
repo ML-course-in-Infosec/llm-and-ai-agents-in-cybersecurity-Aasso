@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "466",
+    "subject.process.id": "2540",
+    "subject.process.parent.id": "2513",
+    "subject.process.fullpath": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python",
+    "subject.process.name": "Python",
+    "subject.process.path": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/",
+    "subject.process.hash": "UNKNOWN:EF09094484EF5DF01C44CC70B07FE10782197222",
+    "object.hash": "A09AFAD27F2DFD0CE1410259676632952B1749FB",
+    "object.process.fullpath": "/bin/sh",
+    "object.process.name": "sh",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "/bin/sh -c ioreg -c IOPlatformExpertDevice -d 2",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "2540",
+    "object.process.parent.id": "2513",
+    "msgid": "9",
+    "time": "2024-03-15T09:49:02.320Z",
+    "event_src.host": "127.0.0.1"
+}

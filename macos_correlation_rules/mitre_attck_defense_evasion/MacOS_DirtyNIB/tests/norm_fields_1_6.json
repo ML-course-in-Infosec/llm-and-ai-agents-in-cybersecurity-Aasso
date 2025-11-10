@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "2905",
+    "subject.process.parent.id": "2904",
+    "subject.process.fullpath": "/private/tmp/Freeform.app/Contents/MacOS/Freeform",
+    "subject.process.name": "Freeform",
+    "subject.process.path": "/private/tmp/Freeform.app/Contents/MacOS/",
+    "subject.process.hash": "UNKNOWN:B377F3EEBCAB61FFED11F292E6FF2BC8B0180C8A",
+    "object.hash": "A09AFAD27F2DFD0CE1410259676632952B1749FB",
+    "object.process.fullpath": "/bin/sh",
+    "object.process.name": "sh",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "sh -c whoami",
+    "object.process.cwd": "/Users/user/Library/Containers/com.apple.freeform/Data",
+    "object.process.id": "2905",
+    "object.process.parent.id": "2904",
+    "msgid": "9",
+    "time": "2024-03-14T14:35:10.220Z",
+    "event_src.host": "127.0.0.1"
+}

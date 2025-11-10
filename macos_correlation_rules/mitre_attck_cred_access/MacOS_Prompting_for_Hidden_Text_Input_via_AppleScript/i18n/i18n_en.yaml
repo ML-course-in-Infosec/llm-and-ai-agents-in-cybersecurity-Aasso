@@ -1,0 +1,4 @@
+Description: 'The rule detects AppleScript script to prompt user for credentials popup dialog. Attackers can gain access to the entered credentials'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Prompting_for_Hidden_Text_Input_via_AppleScript'
+      EventDescription: 'A suspicious authentication popup dialog was detected on the host {event_src.host}'

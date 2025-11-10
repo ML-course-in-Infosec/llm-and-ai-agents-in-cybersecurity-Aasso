@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "466",
+    "subject.process.id": "2513",
+    "subject.process.parent.id": "470",
+    "subject.process.fullpath": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python",
+    "subject.process.name": "Python",
+    "subject.process.path": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/",
+    "subject.process.hash": "UNKNOWN:EF09094484EF5DF01C44CC70B07FE10782197222",
+    "object.process.fullpath": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python",
+    "object.process.name": "Python",
+    "object.process.path": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/",
+    "msgid": "11",
+    "time": "2024-03-15T09:49:02.244Z",
+    "event_src.host": "127.0.0.1"
+}

@@ -1,0 +1,4 @@
+Description: 'Attackers may use .plist files in the .*/Library/LaunchAgents directories to persist on the compromised system'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Persistance_via_LaunchAgent'
+      EventDescription: 'Signs of persistence using the launchctl utility and property list file {object.name} were detected at the {event_src.host} host'

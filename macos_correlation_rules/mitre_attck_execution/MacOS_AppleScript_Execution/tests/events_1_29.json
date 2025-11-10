@@ -1,0 +1,220 @@
+{
+    "schema_version": 1,
+    "mach_time": 40982469112,
+    "event_type": 9,
+    "thread": {
+        "thread_id": 13285
+    },
+    "version": 7,
+    "seq_num": 8,
+    "event": {
+        "exec": {
+            "script": null,
+            "last_fd": 2,
+            "target": {
+                "signing_id": "com.apple.mdworker_shared",
+                "parent_audit_token": {
+                    "asid": 100001,
+                    "pidversion": 7,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 4294967295,
+                    "egid": 0,
+                    "pid": 1
+                },
+                "codesigning_flags": 570509825,
+                "executable": {
+                    "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+                    "stat": {
+                        "st_blocks": 976,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777234,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312135079,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 1115472,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 1,
+                "tty": null,
+                "start_time": "2024-03-12T10:54:09.047797Z",
+                "is_platform_binary": true,
+                "group_id": 900,
+                "audit_token": {
+                    "asid": 100015,
+                    "pidversion": 2305,
+                    "ruid": 89,
+                    "euid": 89,
+                    "rgid": 89,
+                    "auid": 89,
+                    "egid": 89,
+                    "pid": 900
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100015,
+                    "pidversion": 2305,
+                    "ruid": 89,
+                    "euid": 89,
+                    "rgid": 89,
+                    "auid": 89,
+                    "egid": 89,
+                    "pid": 900
+                },
+                "session_id": 1,
+                "original_ppid": 1,
+                "cdhash": "A9F7E830DAA4D8D29DCB03DD7843A38C5B012125",
+                "team_id": null
+            },
+            "image_cpusubtype": -2147483646,
+            "image_cputype": 16777228,
+            "fds": [
+                {
+                    "fd": 0,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 1,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 2,
+                    "fdtype": 1
+                }
+            ],
+            "env": [
+                "LaunchInstanceID=02000000-0000-0000-0000-000000000000",
+                "XPC_SERVICE_NAME=com.apple.mdworker.shared",
+                "MallocCorruptionAbort=1",
+                "MallocSpaceEfficient=1",
+                "PATH=/usr/bin:/bin:/usr/sbin:/sbin",
+                "XPC_FLAGS=19",
+                "LOGNAME=_spotlight",
+                "USER=_spotlight",
+                "HOME=/var/empty",
+                "SHELL=/usr/bin/false",
+                "TMPDIR=/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/T/"
+            ],
+            "args": [
+                "/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+                "-s",
+                "mdworker",
+                "-c",
+                "MDSImporterWorker",
+                "-m",
+                "com.apple.mdworker.shared"
+            ],
+            "cwd": {
+                "path": "/",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777234,
+                    "st_uid": 0,
+                    "st_gid": 0,
+                    "st_ino": 2,
+                    "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_flags": 1048576,
+                    "st_nlink": 20,
+                    "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_size": 640,
+                    "st_gen": 0,
+                    "st_mode": 16877,
+                    "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                },
+                "path_truncated": false
+            },
+            "dyld_exec_path": "/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared"
+        }
+    },
+    "time": "2024-03-12T10:54:09.058673681Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.xpc.proxy",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/usr/libexec/xpcproxy",
+            "stat": {
+                "st_blocks": 96,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777234,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312443700,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 229408,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-12T10:54:09.047797Z",
+        "is_platform_binary": true,
+        "group_id": 1,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 2304,
+            "ruid": 89,
+            "euid": 89,
+            "rgid": 89,
+            "auid": 4294967295,
+            "egid": 89,
+            "pid": 900
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 2304,
+            "ruid": 89,
+            "euid": 89,
+            "rgid": 89,
+            "auid": 4294967295,
+            "egid": 89,
+            "pid": 900
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "09BE1095B687E3B2DA24268F7F4A3FC6E9535888",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 28
+}

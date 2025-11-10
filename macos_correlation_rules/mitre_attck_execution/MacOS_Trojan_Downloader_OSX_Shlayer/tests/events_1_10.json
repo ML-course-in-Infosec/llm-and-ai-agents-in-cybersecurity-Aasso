@@ -1,0 +1,241 @@
+{
+    "schema_version": 1,
+    "mach_time": 19698537729,
+    "event_type": 9,
+    "thread": {
+        "thread_id": 9073
+    },
+    "version": 7,
+    "seq_num": 1,
+    "event": {
+        "exec": {
+            "script": {
+                "path": "/Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS/LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew",
+                "stat": {
+                    "st_blocks": 8,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777234,
+                    "st_uid": 501,
+                    "st_gid": 20,
+                    "st_ino": 552746,
+                    "st_birthtimespec": "2018-02-20T00:48:46.000000000Z",
+                    "st_flags": 0,
+                    "st_nlink": 1,
+                    "st_mtimespec": "2024-03-12T13:20:35.280582325Z",
+                    "st_ctimespec": "2024-03-12T13:22:45.507541575Z",
+                    "st_size": 177,
+                    "st_gen": 0,
+                    "st_mode": 33277,
+                    "st_atimespec": "2024-03-12T13:21:38.018052741Z"
+                },
+                "path_truncated": false
+            },
+            "last_fd": 3,
+            "target": {
+                "signing_id": "com.apple.bash",
+                "parent_audit_token": {
+                    "asid": 100001,
+                    "pidversion": 7,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 4294967295,
+                    "egid": 0,
+                    "pid": 1
+                },
+                "codesigning_flags": 570492929,
+                "executable": {
+                    "path": "/bin/bash",
+                    "stat": {
+                        "st_blocks": 1368,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777234,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312435258,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 1326752,
+                        "st_gen": 0,
+                        "st_mode": 33133,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 1,
+                "tty": null,
+                "start_time": "2024-03-12T13:23:23.301031Z",
+                "is_platform_binary": true,
+                "group_id": 1032,
+                "audit_token": {
+                    "asid": 100003,
+                    "pidversion": 2318,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 1032
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100003,
+                    "pidversion": 2318,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 1032
+                },
+                "session_id": 1,
+                "original_ppid": 1,
+                "cdhash": "CD309001750BCE8946CD379DD8EF374DF7C92AF5",
+                "team_id": null
+            },
+            "image_cpusubtype": 3,
+            "image_cputype": 16777223,
+            "fds": [
+                {
+                    "fd": 0,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 1,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 2,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 3,
+                    "fdtype": 1
+                }
+            ],
+            "env": [
+                "USER=user",
+                "COMMAND_MODE=unix2003",
+                "__CFBundleIdentifier=com.LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew",
+                "PATH=/usr/bin:/bin:/usr/sbin:/sbin",
+                "LOGNAME=user",
+                "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.TDjUSnMBxn/Listeners",
+                "HOME=/Users/user",
+                "SHELL=/bin/zsh",
+                "TMPDIR=/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/",
+                "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+                "XPC_SERVICE_NAME=application.com.LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew.552737.552746",
+                "XPC_FLAGS=1"
+            ],
+            "args": [
+                "/bin/bash",
+                "/Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS/LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew"
+            ],
+            "cwd": {
+                "path": "/",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777234,
+                    "st_uid": 0,
+                    "st_gid": 0,
+                    "st_ino": 2,
+                    "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_flags": 1048576,
+                    "st_nlink": 20,
+                    "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_size": 640,
+                    "st_gen": 0,
+                    "st_mode": 16877,
+                    "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                },
+                "path_truncated": false
+            },
+            "dyld_exec_path": "/bin/bash"
+        }
+    },
+    "time": "2024-03-12T13:23:23.310567033Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.xpc.proxy",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/usr/libexec/xpcproxy",
+            "stat": {
+                "st_blocks": 96,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777234,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312443700,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 229408,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-12T13:23:23.301031Z",
+        "is_platform_binary": true,
+        "group_id": 1,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 2317,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 4294967295,
+            "egid": 20,
+            "pid": 1032
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 2317,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 4294967295,
+            "egid": 20,
+            "pid": 1032
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "09BE1095B687E3B2DA24268F7F4A3FC6E9535888",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 9
+}

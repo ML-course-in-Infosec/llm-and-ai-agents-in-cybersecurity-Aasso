@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "591",
+    "subject.process.id": "591",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/usr/libexec/logd_helper",
+    "subject.process.name": "logd_helper",
+    "subject.process.path": "/usr/libexec/",
+    "subject.process.hash": "UNKNOWN:643C1BE6F59767CF1CEE23BC0BE089364A63A47F",
+    "object.fullpath": "/private/var/db/uuidtext/5E/F264EE87AC3CE987C1C32AA2E984DA.QYGpt6Sd",
+    "object.name": "F264EE87AC3CE987C1C32AA2E984DA.QYGpt6Sd",
+    "object.path": "/private/var/db/uuidtext/5E/",
+    "msgid": "13",
+    "time": "2024-03-12T10:54:07.408Z",
+    "event_src.host": "127.0.0.1"
+}

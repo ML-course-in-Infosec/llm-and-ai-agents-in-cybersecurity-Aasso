@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "1039",
+    "subject.process.parent.id": "1038",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:CD309001750BCE8946CD379DD8EF374DF7C92AF5",
+    "object.hash": "0FEEE545B836ACC8F69544543C11FF4BB8183361",
+    "object.process.fullpath": "/usr/bin/openssl",
+    "object.process.name": "openssl",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "openssl enc -base64 -d -aes-256-cbc -nosalt -pass pass:2833846567",
+    "object.process.cwd": "/Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS",
+    "object.process.id": "1039",
+    "object.process.parent.id": "1038",
+    "msgid": "9",
+    "time": "2024-03-12T13:23:23.558Z",
+    "event_src.host": "127.0.0.1"
+}

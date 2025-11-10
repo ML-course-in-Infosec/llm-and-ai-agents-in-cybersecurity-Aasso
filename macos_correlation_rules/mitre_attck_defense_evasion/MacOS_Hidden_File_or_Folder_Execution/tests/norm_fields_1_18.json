@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "924",
+    "subject.process.id": "925",
+    "subject.process.parent.id": "924",
+    "subject.process.fullpath": "/bin/zsh",
+    "subject.process.name": "zsh",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:6141DE079756F94ACFA074801FC834C366FA2904",
+    "object.process.fullpath": "/bin/zsh",
+    "object.process.name": "zsh",
+    "object.process.path": "/bin/",
+    "msgid": "11",
+    "time": "2024-03-12T14:33:32.466Z",
+    "event_src.host": "127.0.0.1"
+}

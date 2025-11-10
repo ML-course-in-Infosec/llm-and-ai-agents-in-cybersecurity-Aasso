@@ -1,0 +1,157 @@
+{
+    "schema_version": 1,
+    "mach_time": 111017989062,
+    "event_type": 11,
+    "thread": {
+        "thread_id": 22528
+    },
+    "version": 7,
+    "seq_num": 19,
+    "event": {
+        "fork": {
+            "child": {
+                "signing_id": "com.apple.cron",
+                "parent_audit_token": {
+                    "asid": 100001,
+                    "pidversion": 3468,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 4294967295,
+                    "egid": 0,
+                    "pid": 1947
+                },
+                "codesigning_flags": 570492929,
+                "executable": {
+                    "path": "/usr/sbin/cron",
+                    "stat": {
+                        "st_blocks": 88,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777230,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312443781,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 205440,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 1947,
+                "tty": null,
+                "start_time": "2024-03-19T09:25:00.666594Z",
+                "is_platform_binary": true,
+                "group_id": 1448,
+                "audit_token": {
+                    "asid": 100001,
+                    "pidversion": 3469,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 4294967295,
+                    "egid": 0,
+                    "pid": 1948
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100001,
+                    "pidversion": 2818,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 4294967295,
+                    "egid": 0,
+                    "pid": 1448
+                },
+                "session_id": 1448,
+                "original_ppid": 1947,
+                "cdhash": "C611DDDB6DD3FD934AD7DA136100C764AD6F202E",
+                "team_id": null
+            }
+        }
+    },
+    "time": "2024-03-19T09:25:00.666834759Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.cron",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 2818,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1448
+        },
+        "codesigning_flags": 570492929,
+        "executable": {
+            "path": "/usr/sbin/cron",
+            "stat": {
+                "st_blocks": 88,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777230,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312443781,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 205440,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1448,
+        "tty": null,
+        "start_time": "2024-03-19T09:25:00.659831Z",
+        "is_platform_binary": true,
+        "group_id": 1448,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 3468,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1947
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 2818,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1448
+        },
+        "session_id": 1448,
+        "original_ppid": 1448,
+        "cdhash": "C611DDDB6DD3FD934AD7DA136100C764AD6F202E",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 1687
+}

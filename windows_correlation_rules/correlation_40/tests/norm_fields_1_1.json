@@ -1,0 +1,13 @@
+{
+  "time": "2019-01-20t07:02:45.4093218z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "win-77ltaphiq1r.example.corp",
+  "event_src.id": "5145",
+  "event_src.category": "security",
+  "subject.account.name": "user01",
+  "subject.account.domain": "example",
+  "subject.account.id": "s-1-5-21-1587066498-1489273250-1035260531-1106",
+  "src.ip": "10.0.2.17"
+}

@@ -1,0 +1,4 @@
+Description: 'Правило детектирует запуск утилиты pbpaste напрямую или через скрипт, что является подозрительной активностью. Атакующие могут использовать данную утилиту для выгрузки данных, хранящихся в буфере обмена, например учетные данные.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Gather_Sensitive_Information_via_pbpaste'
+      EventDescription: 'Подозрительное выполнение команды {object.process.cmdline} на узле {event_src.host}'

@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "486",
+    "subject.process.id": "1480",
+    "subject.process.parent.id": "1479",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "4EDDBD1F6566AA20F4CCBF53AFB2FE39945CE31C",
+    "object.process.fullpath": "/usr/bin/osascript",
+    "object.process.name": "osascript",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "osascript -e do shell script \"/usr/bin/su - user\" & \" -c \" & \" & ~/Desktop/Siggen/T-Virus & \" with administrator privileges",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "1480",
+    "object.process.parent.id": "1479",
+    "msgid": "9",
+    "time": "2024-03-11T09:05:57.601Z",
+    "event_src.host": "127.0.0.1"
+}

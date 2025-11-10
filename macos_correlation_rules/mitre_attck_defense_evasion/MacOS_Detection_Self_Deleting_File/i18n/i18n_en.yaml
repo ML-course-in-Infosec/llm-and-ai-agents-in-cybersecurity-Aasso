@@ -1,0 +1,4 @@
+Description: 'Potential evasion of detection through the technique of self-deleting a file from the system'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Detection_Self_Deleting_File'
+      EventDescription: 'A potential detection evasion attempt related to the executable file has been detected on the {event_src.host} node {subject.process.fullpath} through the technique of self-deleting a file from the system'

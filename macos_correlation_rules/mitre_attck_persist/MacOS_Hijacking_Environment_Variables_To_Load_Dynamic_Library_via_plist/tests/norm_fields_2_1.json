@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "0",
+    "subject.account.session_id": "473",
+    "subject.process.id": "2464",
+    "subject.process.parent.id": "2463",
+    "subject.process.fullpath": "/usr/bin/sudo",
+    "subject.process.name": "sudo",
+    "subject.process.path": "/usr/bin/",
+    "subject.process.hash": "UNKNOWN:C64A1CFD4895F18F2609937A7F324CC0CA2FC665",
+    "object.hash": "2984AECBCB894D2F45E2AAA5293D80831C91C59B",
+    "object.process.fullpath": "/bin/launchctl",
+    "object.process.name": "launchctl",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "launchctl load -w /Users/user/Library/LaunchAgents/launcher.plist",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "2464",
+    "object.process.parent.id": "2463",
+    "msgid": "9",
+    "time": "2024-03-12T13:03:16.156Z",
+    "event_src.host": "127.0.0.1"
+}

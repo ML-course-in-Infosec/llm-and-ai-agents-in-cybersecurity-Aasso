@@ -1,0 +1,4 @@
+Description: 'Атакующие могут использовать команду at для создания задач с целью закрепления в системе, либо исполнения вредоноса'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_SheduledTask_via_At'
+      EventDescription: 'На хосте {event_src.host) зафиксировано исполнение команды {object.process.cmdline}'

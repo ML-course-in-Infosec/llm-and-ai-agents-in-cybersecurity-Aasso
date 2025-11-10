@@ -1,0 +1,6 @@
+Description: 'Правило обнаруживает получение учетных данных из хранилища паролей браузеров или связки паролей с помощью утилиты security'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Dump_Passwords_via_Security'
+      EventDescription: 'Пользователь {subject.account.id} использовал команду {alert.regex_match} для получения учетных данных из связки ключей с помощью утилиты "security" на узле {event_src.host}'
+    - LocalizationId: 'corrname_MacOS_Dump_Passwords_via_Security_2'
+      EventDescription: 'Пользователь {subject.account.id} использовал команду {alert.regex_match} для получения учетных данных с помощью утилиты "security" на узле {event_src.host}'

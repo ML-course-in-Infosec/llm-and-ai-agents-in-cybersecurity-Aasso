@@ -1,0 +1,113 @@
+{
+    "schema_version": 1,
+    "mach_time": 111019552889,
+    "event_type": 33,
+    "thread": {
+        "thread_id": 21953
+    },
+    "version": 7,
+    "seq_num": 1093,
+    "event": {
+        "write": {
+            "target": {
+                "path": "/private/var/db/analyticsd/state.sqlite-wal",
+                "stat": {
+                    "st_blocks": 6152,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777230,
+                    "st_uid": 263,
+                    "st_gid": 263,
+                    "st_ino": 14904,
+                    "st_birthtimespec": "2023-08-20T18:25:02.342511374Z",
+                    "st_flags": 0,
+                    "st_nlink": 1,
+                    "st_mtimespec": "2024-03-19T09:25:00.731992192Z",
+                    "st_ctimespec": "2024-03-19T09:25:00.731992192Z",
+                    "st_size": 2533832,
+                    "st_gen": 0,
+                    "st_mode": 33188,
+                    "st_atimespec": "2024-03-19T09:20:00.933098482Z"
+                },
+                "path_truncated": false
+            }
+        }
+    },
+    "time": "2024-03-19T09:25:00.731994192Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.analyticsd",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd",
+            "stat": {
+                "st_blocks": 2320,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777230,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312246890,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 2691392,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-19T08:07:57.781570Z",
+        "is_platform_binary": true,
+        "group_id": 158,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 538,
+            "ruid": 263,
+            "euid": 263,
+            "rgid": 263,
+            "auid": 4294967295,
+            "egid": 263,
+            "pid": 158
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 538,
+            "ruid": 263,
+            "euid": 263,
+            "rgid": 263,
+            "auid": 4294967295,
+            "egid": 263,
+            "pid": 158
+        },
+        "session_id": 158,
+        "original_ppid": 1,
+        "cdhash": "B15495FCADCA931CECB2A9B73CE97DC1910055B9",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 1939
+}

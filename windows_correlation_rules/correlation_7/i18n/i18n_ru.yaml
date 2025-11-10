@@ -1,0 +1,4 @@
+Description: 'Правило обнаруживает активность связанную с аутентификацией с использованием действительных учетных записей на основе событий безопасности Windows'
+EventDescriptions:
+    - LocalizationId: 'corrname_correlation_7'
+      EventDescription: 'Пользователь {subject.account.name} выполнил процесс {subject.process.name} с командой {subject.process.cmdline} на узле {event_src.hostname}'

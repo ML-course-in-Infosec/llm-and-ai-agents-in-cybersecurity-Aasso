@@ -1,0 +1,28 @@
+ContentAutoName: MacOS_Gather_Sensitive_Information_via_pbpaste
+ExpertContext:
+    Created: 02.07.2024
+    Updated: 02.07.2024
+    KnowledgeHolders:
+        - Kirill Shamko
+    Usecases:
+        - Атакующие могут использовать команду pbpaste, чтобы собрать данные, хранящиеся в буфере обмена (это могут быть в том числе и чувствительные данные, такие как пароли).
+    Falsepositives:
+        - Легитимная активность администраторов
+    References:
+        - https://danielcortez.substack.com/p/living-off-the-land-exploring-macos-b65
+        - https://attack.mitre.org/techniques/T1115/
+        - https://www.loobins.io/binaries/pbpaste/
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-706489203
+ContentRelations:
+    Implements:
+        ATTACK:
+            collection:
+                - T1115
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Gather_Sensitive_Information_via_pbpaste"
+      LocalizationId: corrname_MacOS_Gather_Sensitive_Information_via_pbpaste

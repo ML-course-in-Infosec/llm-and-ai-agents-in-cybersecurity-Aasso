@@ -1,0 +1,213 @@
+{
+    "schema_version": 1,
+    "mach_time": 40946539262,
+    "event_type": 9,
+    "thread": {
+        "thread_id": 13274
+    },
+    "version": 7,
+    "seq_num": 5,
+    "event": {
+        "exec": {
+            "script": null,
+            "last_fd": 2,
+            "target": {
+                "signing_id": "com.apple.UserNotificationCenter",
+                "parent_audit_token": {
+                    "asid": 100001,
+                    "pidversion": 7,
+                    "ruid": 0,
+                    "euid": 0,
+                    "rgid": 0,
+                    "auid": 4294967295,
+                    "egid": 0,
+                    "pid": 1
+                },
+                "codesigning_flags": 570509825,
+                "executable": {
+                    "path": "/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter",
+                    "stat": {
+                        "st_blocks": 168,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777234,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312100278,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 292944,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 1,
+                "tty": null,
+                "start_time": "2024-03-12T10:54:07.557686Z",
+                "is_platform_binary": true,
+                "group_id": 898,
+                "audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2300,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 898
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2300,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 898
+                },
+                "session_id": 1,
+                "original_ppid": 1,
+                "cdhash": "ADDBD34DB11675DB6C0CF533A2B71AD59A6ECCFE",
+                "team_id": null
+            },
+            "image_cpusubtype": -2147483646,
+            "image_cputype": 16777228,
+            "fds": [
+                {
+                    "fd": 0,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 1,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 2,
+                    "fdtype": 1
+                }
+            ],
+            "env": [
+                "MallocSpaceEfficient=1",
+                "XPC_SERVICE_NAME=com.apple.UserNotificationCenterAgent",
+                "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.GDrntXhPT6/Listeners",
+                "PATH=/usr/bin:/bin:/usr/sbin:/sbin",
+                "XPC_FLAGS=1",
+                "LOGNAME=user",
+                "USER=user",
+                "HOME=/Users/user",
+                "SHELL=/bin/zsh",
+                "TMPDIR=/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/"
+            ],
+            "args": [
+                "/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter"
+            ],
+            "cwd": {
+                "path": "/",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777234,
+                    "st_uid": 0,
+                    "st_gid": 0,
+                    "st_ino": 2,
+                    "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_flags": 1048576,
+                    "st_nlink": 20,
+                    "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_size": 640,
+                    "st_gen": 0,
+                    "st_mode": 16877,
+                    "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                },
+                "path_truncated": false
+            },
+            "dyld_exec_path": "/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter"
+        }
+    },
+    "time": "2024-03-12T10:54:07.561685868Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.xpc.proxy",
+        "parent_audit_token": {
+            "asid": 100001,
+            "pidversion": 7,
+            "ruid": 0,
+            "euid": 0,
+            "rgid": 0,
+            "auid": 4294967295,
+            "egid": 0,
+            "pid": 1
+        },
+        "codesigning_flags": 570509825,
+        "executable": {
+            "path": "/usr/libexec/xpcproxy",
+            "stat": {
+                "st_blocks": 96,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777234,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312443700,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 229408,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 1,
+        "tty": null,
+        "start_time": "2024-03-12T10:54:07.557686Z",
+        "is_platform_binary": true,
+        "group_id": 1,
+        "audit_token": {
+            "asid": 100001,
+            "pidversion": 2299,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 4294967295,
+            "egid": 20,
+            "pid": 898
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100001,
+            "pidversion": 2299,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 4294967295,
+            "egid": 20,
+            "pid": 898
+        },
+        "session_id": 1,
+        "original_ppid": 1,
+        "cdhash": "09BE1095B687E3B2DA24268F7F4A3FC6E9535888",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 21
+}

@@ -1,0 +1,23 @@
+ContentAutoName: Unix_Recon_SP_Data_type
+ExpertContext:
+    Created: 06.07.2024
+    Updated: 08.08.2024
+    KnowledgeHolders:
+        - Юрий Лычагин
+    Usecases:
+        - Подозрительное получение информации о системе с помощью bash-скриптов
+    Falsepositives:
+        - Работа системных администраторов по траблшутингу (c использованием скриптов)
+    References:
+        - https://www.sentinelone.com/blog/scripting-macs-with-malice-how-shlayer-and-other-malware-installers-infect-macos/
+        - https://service.securitm.ru/mitre/software/S0482
+    Improvements: []
+ObjectId: SEC-CR-176045484
+ContentRelations:
+    Implements:
+        ATTACK:
+            reconnaissance:
+                - T1592
+EventDescriptions:
+    - Criteria: correlation_name = "Unix_Recon_SP_Data_type"
+      LocalizationId: corrname_Unix_Recon_SP_Data_type

@@ -1,0 +1,27 @@
+ContentAutoName: MacOS_Modify_loginwindow_plist
+ExpertContext:
+    Created: 06.07.2024
+    Updated: 06.07.2024
+    KnowledgeHolders:
+        - Sergey Golub <@leitosama>
+    Usecases:
+        - Возможное закрепление через модификацию loginwindow.plist
+    Falsepositives:
+        - Модификация других конфигураций в loginwindow.plist
+        - Использование LoginHook/LogoutHook другим пользователем
+    References:
+        - https://book.hacktricks.xyz/macos-hardening/macos-auto-start-locations
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-932859479
+ContentRelations:
+    Implements:
+        ATTACK:
+            persistence:
+                - T1037.002
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Modify_loginwindow_plist"
+      LocalizationId: corrname_MacOS_Modify_loginwindow_plist

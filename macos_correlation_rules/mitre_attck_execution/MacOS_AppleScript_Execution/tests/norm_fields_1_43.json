@@ -1,0 +1,16 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "383",
+    "subject.process.parent.id": "1",
+    "subject.process.fullpath": "/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager",
+    "subject.process.name": "WindowManager",
+    "subject.process.path": "/System/Library/CoreServices/WindowManager.app/Contents/MacOS/",
+    "subject.process.hash": "UNKNOWN:BB35E5EAD9A07A6856E1C5F4E3198283A2225558",
+    "object.fullpath": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/com.apple.WindowManager/TemporaryItems/NSIRD_WindowManager_aZ82et/state.plist",
+    "object.name": "state.plist",
+    "object.path": "/private/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/com.apple.WindowManager/TemporaryItems/NSIRD_WindowManager_aZ82et/",
+    "msgid": "13",
+    "time": "2024-03-12T10:54:10.078Z",
+    "event_src.host": "127.0.0.1"
+}

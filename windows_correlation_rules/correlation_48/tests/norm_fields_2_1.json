@@ -1,0 +1,8 @@
+{
+  "time": "2019-03-19t23:34:25.8943413z",
+  "event_src.title": "microsoft-windows-eventlog",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "pc01.example.corp",
+  "event_src.id": "104",
+  "event_src.category": "system"
+}

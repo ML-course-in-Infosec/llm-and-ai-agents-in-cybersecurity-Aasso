@@ -1,0 +1,28 @@
+ContentAutoName: MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist
+ExpertContext:
+    Created: 24.06.2024
+    Updated: 24.06.2024
+    KnowledgeHolders:
+        - Kirill Shamko
+    Usecases:
+        - Атакующие могут выполнять полезную нагрузку, подгружая переменные среды через агентов запуска, используемые динамическим компоновщиком для загрузки библиотек.
+    Falsepositives: []
+    References:
+        - https://theevilbit.github.io/posts/dyld_insert_libraries_dylib_injection_in_macos_osx_deep_dive/
+        - https://opensource.apple.com/source/xnu/xnu-4903.221.2/osfmk/kern/cs_blobs.h.auto.html
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - es_logger_process_execution
+ObjectId: SEC-CR-144369010
+ContentRelations:
+    Implements:
+        ATTACK:
+            persistence:
+                - T1574.006
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist" and datafield18 = "0"
+      LocalizationId: corrname_MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist
+    - Criteria: correlation_name = "MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist" and datafield18 != "0"
+      LocalizationId: corrname_MacOS_Hijacking_Environment_Variables_To_Load_Dynamic_Library_via_plist_2

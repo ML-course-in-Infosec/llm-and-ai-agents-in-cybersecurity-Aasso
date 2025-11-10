@@ -1,0 +1,22 @@
+{
+  "time": "2023-06-05t15:02:22.480032900z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "wks05.example.com",
+  "event_src.id": "7",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.account.domain": "nt authority",
+  "subject.account.name": "system",
+  "subject.process.fullpath": "c:\\windows\\system32\\consent.exe",
+  "subject.process.path": "c:\\windows\\system32\\",
+  "subject.process.name": "consent.exe",
+  "subject.process.original_name": "ikazuchi.dll",
+  "subject.process.version": "3.1.8.1904",
+  "subject.process.id": "2328",
+  "subject.process.guid": "{20fff121-f8dd-647d-8401-000000003900}",
+  "subject.process.hash.md5": "9e5aed3f57cebc5154f9373b2bb9ba05",
+  "subject.process.hash.sha256": "ff40c2f8e6635f4d33997eb928c72c1293c5a844185dfdd3fd444ffd8c959e80",
+  "subject.process.hash.imphash": "1c6b5c991bbbdc2b578ea7deef4afa1b",
+  "subject.process.meta": "description:uacme proxy dll | product:uacme | company:hazardous environments"
+}

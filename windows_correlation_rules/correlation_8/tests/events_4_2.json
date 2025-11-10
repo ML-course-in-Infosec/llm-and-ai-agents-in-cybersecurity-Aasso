@@ -1,0 +1,78 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Sysmon",
+                "Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+            },
+            "EventID": "10",
+            "Version": "3",
+            "Level": "4",
+            "Task": "10",
+            "Opcode": "0",
+            "Keywords": "0x8000000000000000",
+            "TimeCreated": {
+                "SystemTime": "2021-04-22T22:09:35.2846041Z"
+            },
+            "EventRecordID": "564606",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "3352",
+                "ThreadID": "4696"
+            },
+            "Channel": "Microsoft-Windows-Sysmon/Operational",
+            "Computer": "MSEDGEWIN10",
+            "Security": {
+                "UserID": "S-1-5-18"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "RuleName"
+                },
+                {
+                    "Name": "UtcTime",
+                    "text": "2021-04-22 22:09:35.276"
+                },
+                {
+                    "Name": "SourceProcessGUID",
+                    "text": "{747f3d96-6e19-6082-0000-0010f6600000}"
+                },
+                {
+                    "Name": "SourceProcessId",
+                    "text": "624"
+                },
+                {
+                    "Name": "SourceThreadId",
+                    "text": "2368"
+                },
+                {
+                    "Name": "SourceImage",
+                    "text": "C:\\Windows\\system32\\services.exe"
+                },
+                {
+                    "Name": "TargetProcessGUID",
+                    "text": "{747f3d96-f41f-6081-0000-001078834a00}"
+                },
+                {
+                    "Name": "TargetProcessId",
+                    "text": "6644"
+                },
+                {
+                    "Name": "TargetImage",
+                    "text": "C:\\Windows\\system32\\svchost.exe"
+                },
+                {
+                    "Name": "GrantedAccess",
+                    "text": "0x1fffff"
+                },
+                {
+                    "Name": "CallTrace",
+                    "text": "C:\\Windows\\SYSTEM32\\ntdll.dll+a0fb4|C:\\Windows\\System32\\KERNELBASE.dll+485d2|C:\\Windows\\System32\\KERNELBASE.dll+45163|C:\\Windows\\System32\\KERNEL32.DLL+1cd9f|C:\\Windows\\system32\\services.exe+9f39|C:\\Windows\\system32\\services.exe+c665|C:\\Windows\\system32\\services.exe+90d5|C:\\Windows\\system32\\services.exe+8d4c|C:\\Windows\\system32\\services.exe+de2d|C:\\Windows\\system32\\services.exe+15a8e|C:\\Windows\\system32\\services.exe+15d78|C:\\Windows\\System32\\RPCRT4.dll+77803|C:\\Windows\\System32\\RPCRT4.dll+1436c|C:\\Windows\\System32\\RPCRT4.dll+1756a|C:\\Windows\\System32\\RPCRT4.dll+54a18|C:\\Windows\\System32\\RPCRT4.dll+30490|C:\\Windows\\System32\\RPCRT4.dll+2fe3b|C:\\Windows\\System32\\RPCRT4.dll+221ff|C:\\Windows\\System32\\RPCRT4.dll+2165a|C:\\Windows\\System32\\RPCRT4.dll+20c21|C:\\Windows\\System32\\RPCRT4.dll+20692|C:\\Windows\\System32\\RPCRT4.dll+17465|C:\\Windows\\SYSTEM32\\ntdll.dll+4f4d0|C:\\Windows\\SYSTEM32\\ntdll.dll+50358"
+                }
+            ]
+        }
+    }
+}

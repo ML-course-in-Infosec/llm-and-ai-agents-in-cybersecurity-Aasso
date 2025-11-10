@@ -1,0 +1,91 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4648",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12544",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2020-09-15T18:04:39.9870522Z"
+            },
+            "EventRecordID": "161472",
+            "Correlation": {
+                "ActivityID": "{c5412e82-8bc5-0000-0a2f-41c5c58bd601}"
+            },
+            "Execution": {
+                "ProcessID": "644",
+                "ThreadID": "5436"
+            },
+            "Channel": "Security",
+            "Computer": "MSEDGEWIN10",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-3461203602-4096304019-2269080069-1009"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "svc01"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "MSEDGEWIN10"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x10b6b3"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{00000000-0000-0000-0000-000000000000}"
+                },
+                {
+                    "Name": "TargetUserName",
+                    "text": "IEUser"
+                },
+                {
+                    "Name": "TargetDomainName",
+                    "text": "MSEDGEWIN10"
+                },
+                {
+                    "Name": "TargetLogonGuid",
+                    "text": "{00000000-0000-0000-0000-000000000000}"
+                },
+                {
+                    "Name": "TargetServerName",
+                    "text": "localhost"
+                },
+                {
+                    "Name": "TargetInfo",
+                    "text": "localhost"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "0x140c"
+                },
+                {
+                    "Name": "ProcessName",
+                    "text": "C:\\Windows\\System32\\inetsrv\\w3wp.exe"
+                },
+                {
+                    "Name": "IpAddress",
+                    "text": "-"
+                },
+                {
+                    "Name": "IpPort",
+                    "text": "-"
+                }
+            ]
+        }
+    }
+}

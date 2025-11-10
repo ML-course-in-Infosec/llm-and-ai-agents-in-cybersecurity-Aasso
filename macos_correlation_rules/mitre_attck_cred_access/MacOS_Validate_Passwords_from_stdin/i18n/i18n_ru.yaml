@@ -1,0 +1,4 @@
+Description: 'Правило детектирует валидация пароля через стандартный поток ввода утилиты sudo. Это позволяет дать на вход список паролей и произвести подбор пароля.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Validate_Passwords_from_stdin'
+      EventDescription: 'Подозрительный способ валидации локальных учетных данных с помощью утилиты sudo на узле {event_src.host}'

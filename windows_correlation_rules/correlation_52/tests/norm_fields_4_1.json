@@ -1,0 +1,15 @@
+{
+  "time": "2019-03-17t20:22:59.3997616z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "pc04.example.corp",
+  "event_src.id": "13",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.process.fullpath": "c:\\windows\\regedit.exe",
+  "subject.process.path": "c:\\windows\\",
+  "subject.process.name": "regedit.exe",
+  "subject.process.id": "2872",
+  "subject.process.guid": "{365abb72-ac79-5c8e-0000-0010e1b50d00}",
+  "object.path": "hklm\\system\\currentcontrolset\\control\\terminal server\\winstations\\rdp-tcp\\portnumber"
+}

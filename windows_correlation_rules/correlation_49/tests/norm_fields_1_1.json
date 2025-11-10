@@ -1,0 +1,12 @@
+{
+  "time": "2019-07-03t20:39:30.2547335z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "iewin7",
+  "event_src.id": "10",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "object.process.fullpath": "c:\\windows\\system32\\rundll32.exe",
+  "object.process.path": "c:\\windows\\system32\\",
+  "object.process.name": "rundll32.exe"
+}

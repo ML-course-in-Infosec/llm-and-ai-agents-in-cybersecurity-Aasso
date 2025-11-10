@@ -1,0 +1,93 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4688",
+            "Version": "2",
+            "Level": "0",
+            "Task": "13312",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-06-08T14:37:10.335665700Z"
+            },
+            "EventRecordID": "50082171",
+            "Correlation": null,
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "2684"
+            },
+            "Channel": "Security",
+            "Computer": "wks05.example.com",
+            "Security": null
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "text": "S-1-5-18",
+                    "Name": "SubjectUserSid"
+                },
+                {
+                    "text": "WKS05$",
+                    "Name": "SubjectUserName"
+                },
+                {
+                    "text": "CYBERDYNE",
+                    "Name": "SubjectDomainName"
+                },
+                {
+                    "text": "0x3e7",
+                    "Name": "SubjectLogonId"
+                },
+                {
+                    "text": "0x1648",
+                    "Name": "NewProcessId"
+                },
+                {
+                    "text": "C:\\ProgramData\\Simple Service\\simple.exe",
+                    "Name": "NewProcessName"
+                },
+                {
+                    "text": "%%1936",
+                    "Name": "TokenElevationType"
+                },
+                {
+                    "text": "0x288",
+                    "Name": "ProcessId"
+                },
+                {
+                    "text": "\"C:\\ProgramData\\Simple Service\\Simple\" Service.exe",
+                    "Name": "CommandLine"
+                },
+                {
+                    "text": "S-1-0-0",
+                    "Name": "TargetUserSid"
+                },
+                {
+                    "text": "-",
+                    "Name": "TargetUserName"
+                },
+                {
+                    "text": "-",
+                    "Name": "TargetDomainName"
+                },
+                {
+                    "text": "0x0",
+                    "Name": "TargetLogonId"
+                },
+                {
+                    "text": "C:\\Windows\\System32\\services.exe",
+                    "Name": "ParentProcessName"
+                },
+                {
+                    "text": "S-1-16-16384",
+                    "Name": "MandatoryLabel"
+                }
+            ]
+        }
+    }
+}

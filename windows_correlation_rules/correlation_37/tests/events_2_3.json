@@ -1,0 +1,78 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Sysmon",
+                "Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+            },
+            "EventID": "10",
+            "Version": "3",
+            "Level": "4",
+            "Task": "10",
+            "Opcode": "0",
+            "Keywords": "0x8000000000000000",
+            "TimeCreated": {
+                "SystemTime": "2019-08-03T12:08:23.5551743Z"
+            },
+            "EventRecordID": "5453",
+            "Correlation": null,
+            "Execution": {
+                "ProcessID": "2780",
+                "ThreadID": "3676"
+            },
+            "Channel": "Microsoft-Windows-Sysmon/Operational",
+            "Computer": "MSEDGEWIN10",
+            "Security": {
+                "UserID": "S-1-5-18"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "RuleName"
+                },
+                {
+                    "Name": "UtcTime",
+                    "text": "2019-08-03 12:08:23.377"
+                },
+                {
+                    "Name": "SourceProcessGUID",
+                    "text": "{747f3d96-7934-5d45-0000-0010cab90701}"
+                },
+                {
+                    "Name": "SourceProcessId",
+                    "text": "7564"
+                },
+                {
+                    "Name": "SourceThreadId",
+                    "text": "7188"
+                },
+                {
+                    "Name": "SourceImage",
+                    "text": "C:\\Windows\\system32\\consent.exe"
+                },
+                {
+                    "Name": "TargetProcessGUID",
+                    "text": "{747f3d96-7937-5d45-0000-00100d290801}"
+                },
+                {
+                    "Name": "TargetProcessId",
+                    "text": "4192"
+                },
+                {
+                    "Name": "TargetImage",
+                    "text": "C:\\Windows\\system32\\cmd.exe"
+                },
+                {
+                    "Name": "GrantedAccess",
+                    "text": "0x1fffff"
+                },
+                {
+                    "Name": "CallTrace",
+                    "text": "C:\\Windows\\SYSTEM32\\ntdll.dll+a0fb4|C:\\Windows\\System32\\KERNELBASE.dll+47241|C:\\Windows\\System32\\KERNELBASE.dll+46196|C:\\Windows\\System32\\KERNEL32.DLL+1c2e3|UNKNOWN(000001611150B621)|UNKNOWN(000001611150B621)|C:\\Windows\\SYSTEM32\\ntdll.dll+48f07|C:\\Windows\\SYSTEM32\\ntdll.dll+44865|C:\\Windows\\SYSTEM32\\ntdll.dll+44648|C:\\Windows\\SYSTEM32\\ntdll.dll+44672|C:\\Windows\\SYSTEM32\\ntdll.dll+d62ca|C:\\Windows\\SYSTEM32\\ntdll.dll+c3879|C:\\Windows\\SYSTEM32\\ntdll.dll+756c3|C:\\Windows\\SYSTEM32\\ntdll.dll+7566e"
+                }
+            ]
+        }
+    }
+}

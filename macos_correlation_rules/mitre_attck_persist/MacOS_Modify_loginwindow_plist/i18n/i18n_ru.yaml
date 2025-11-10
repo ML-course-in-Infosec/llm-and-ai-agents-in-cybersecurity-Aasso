@@ -1,0 +1,4 @@
+Description: 'Нарушители могут использовать стандартные утилиты macOS для изменения конфигурации com.apple.loginwindow.plist, в том числе для закрепления с помощью LoginHook/LogoutHook при входе/выходе пользователя. Используя их, macOS запускает демон cfprefsd, который и модицфирует файл.'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Modify_loginwindow_plist'
+      EventDescription: 'Попытка закрепления в системе с помощью модификации {object.name}'

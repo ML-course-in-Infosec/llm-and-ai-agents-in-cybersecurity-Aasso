@@ -1,0 +1,4 @@
+Description: 'Нарушитель может использовать утилиту crontab для закрепления в macOS. Детект фокусируется на задаче cron, загружаемый из временных директорий'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Schedule_CronJob_from_Tmp_Dir'
+      EventDescription: 'В системе macOS был запущен crontab для загрузки задачи из временной директории. Это может означать возможное закрпеление нарушителя в системе.'

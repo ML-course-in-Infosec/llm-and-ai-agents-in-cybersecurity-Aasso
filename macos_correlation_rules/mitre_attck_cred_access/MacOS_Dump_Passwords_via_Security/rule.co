@@ -1,0 +1,103 @@
+event Process_Start:
+    key:
+        event_src.host
+    filter {
+        filter::NotFromCorrelator()
+        and event_src.title == "edr"
+        and msgid == "9"
+        and action == "execute"
+        and lower(object.process.fullpath) == "/usr/bin/security"
+        and (
+            regex(lower(object.process.cmdline), "find-(generic|internet)-password", 0) != null
+            # Атакующий может сдампить хранилище ключей для эксфильтрации данных на свой узел или просто прочесть содержимое
+            or find_substr(lower(object.process.cmdline), "dump-keychain") != null
+            )
+    }
+
+rule MacOS_Dump_Passwords_via_Security: Process_Start
+
+    on Process_Start {
+        $subject.account.session_id = subject.account.session_id
+        $subject.account.id = subject.account.id
+
+        $subject.process.id = subject.process.id
+        $subject.process.name = subject.process.name
+        $subject.process.path = subject.process.path
+        $subject.process.fullpath = subject.process.fullpath
+        $subject.process.hash = subject.process.hash
+        $subject.process.cmdline = subject.process.cmdline
+        $subject.process.cwd = subject.process.cwd
+        
+        $subject.process.parent.id = subject.process.parent.id
+        
+        $object.hash = object.hash
+
+        $object.process.id = object.process.id
+        $object.process.name = object.process.name
+        $object.process.path = object.process.path
+        $object.process.fullpath = object.process.fullpath
+        $object.process.hash = object.process.hash
+        $object.process.cmdline = object.process.cmdline
+        $object.process.cwd = object.process.cwd
+        
+        $object.process.parent.id = object.process.parent.id
+        
+        $datafield1 = datafield1
+        $datafield2 = datafield2
+        $datafield3 = datafield3
+        $datafield4 = datafield4
+        $datafield5 = datafield5
+        $datafield6 = datafield6
+        $datafield7 = datafield7
+        $datafield8 = datafield8
+        $datafield9 = datafield9
+        $datafield10 = datafield10
+        $datafield11 = datafield1
+        $datafield12 = datafield2
+        $datafield13 = datafield3
+        $datafield14 = datafield4
+        $datafield15 = datafield5
+        $datafield16 = datafield6
+        $datafield17 = datafield7
+        $datafield18 = datafield8
+
+        $event_src.ip = event_src.ip
+        $event_src.hostname = event_src.hostname
+        $event_src.fqdn = event_src.fqdn
+        $event_src.host = event_src.host
+        $event_src.asset = event_src.asset
+        $event_src.vendor = event_src.vendor
+        $event_src.title = event_src.title
+        $event_src.subsys = event_src.subsys
+        $event_src.rule = event_src.rule
+        
+        $alert.key = lower(object.process.cmdline)
+        $alert.context = lower(join([subject.account.id, subject.process.fullpath], "|"))
+        $alert.regex_match = regex(lower(object.process.cmdline), "find-(generic|internet)-password|dump-keychain" , 0)
+
+        if $alert.regex_match == "dump-keychain" then
+            $reason = "dump"
+        else
+            $reason = "find"
+        endif
+    }
+
+emit {
+    $correlation_type = "incident"
+
+    $subject = "account"
+    $action = "execute"
+    $object = "process"
+    $status = "success"
+
+    $importance = "medium"
+
+    $category.generic = "Attack"
+    $category.high = "Discovery"
+    $category.low = "Credentials from Password Stores: Keychain"
+
+    $incident.aggregation.key = join([$correlation_name, lower($event_src.host), lower($subject.account.id)], "|")
+    $incident.severity = $importance
+    $incident.category = "SoftwareSuspiciousActivity"
+    $incident.aggregation.timeout = 2h
+}

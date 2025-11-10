@@ -1,0 +1,15 @@
+{
+  "time": "2019-05-24 15:38:21.485899",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "iewin7",
+  "event_src.id": "13",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.process.fullpath": "c:\\windows\\system32\\windowspowershell\\v1.0\\powershell.exe",
+  "subject.process.path": "c:\\windows\\system32\\windowspowershell\\v1.0\\",
+  "subject.process.name": "powershell.exe",
+  "subject.process.id": "3208",
+  "subject.process.guid": "{365abb72-0fae-5ce8-0000-0010fe1e0800}",
+  "object.path": "hklm\\software\\microsoft\\powershell\\1\\shellids\\microsoft.powershell\\executionpolicy"
+}

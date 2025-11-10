@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1948",
+    "subject.process.id": "1950",
+    "subject.process.parent.id": "1949",
+    "subject.process.fullpath": "/usr/bin/osascript",
+    "subject.process.name": "osascript",
+    "subject.process.path": "/usr/bin/",
+    "subject.process.hash": "UNKNOWN:4EDDBD1F6566AA20F4CCBF53AFB2FE39945CE31C",
+    "object.hash": "A09AFAD27F2DFD0CE1410259676632952B1749FB",
+    "object.process.fullpath": "/bin/sh",
+    "object.process.name": "sh",
+    "object.process.path": "/bin/",
+    "object.process.cmdline": "sh -c whoami",
+    "object.process.cwd": "/Users/user",
+    "object.process.id": "1950",
+    "object.process.parent.id": "1949",
+    "msgid": "9",
+    "time": "2024-03-19T09:25:00.731Z",
+    "event_src.host": "127.0.0.1"
+}

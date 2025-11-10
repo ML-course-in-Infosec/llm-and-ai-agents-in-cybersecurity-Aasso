@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "470",
+    "subject.process.id": "1233",
+    "subject.process.parent.id": "1232",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "EC4120B645FAFAEBECD8C0185B70FDB7252335C2",
+    "object.process.fullpath": "/usr/bin/defaults",
+    "object.process.name": "defaults",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "defaults write com.apple.loginwindow LogoutHook /Users/user/Desktop/test.sh",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "1233",
+    "object.process.parent.id": "1232",
+    "msgid": "9",
+    "time": "2024-03-19T08:32:26.971Z",
+    "event_src.host": "127.0.0.1"
+}

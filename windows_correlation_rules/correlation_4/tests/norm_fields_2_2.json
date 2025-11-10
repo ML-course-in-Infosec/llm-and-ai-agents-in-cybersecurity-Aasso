@@ -1,0 +1,18 @@
+{
+  "time": "2019-09-03t11:33:24.1779239z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "msedgewin10",
+  "event_src.id": "3",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.account.domain": "nt authority",
+  "subject.account.name": "system",
+  "subject.process.fullpath": "system",
+  "subject.process.name": "system",
+  "subject.process.id": "4",
+  "subject.process.guid": "{747f3d96-986d-5d6e-0000-0010eb030000}",
+  "dst.ip": "127.0.0.1",
+  "dst.port": "49949",
+  "dst.hostname": "msedgewin10"
+}

@@ -1,0 +1,24 @@
+ContentAutoName: MacOS_Detection_Self_Deleting_File
+ExpertContext:
+    Created: 28.06.2024
+    Updated: 04.07.2024
+    KnowledgeHolders:
+        - Sergei Panov
+    Usecases: []
+    Falsepositives: []
+    References:
+        - https://attack.mitre.org/techniques/T1070/004/
+    Improvements: []
+    DataSources:
+        - Provider: MacOS
+          EventID:
+              - 32
+ObjectId: SEC-CR-167796245
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Detection_Self_Deleting_File"
+      LocalizationId: corrname_MacOS_Detection_Self_Deleting_File
+ContentRelations:
+    Implements:
+        ATTACK:
+            defense-evasion:
+                - T1070.004

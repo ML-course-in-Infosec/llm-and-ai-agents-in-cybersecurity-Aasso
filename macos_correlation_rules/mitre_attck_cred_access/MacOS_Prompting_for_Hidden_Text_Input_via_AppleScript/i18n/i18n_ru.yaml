@@ -1,0 +1,4 @@
+Description: 'Правило детектирует AppleScript скрипт на вызов формы для ввода учетных данных. Атакующие могут получить доступ к введенным учетным данным'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Prompting_for_Hidden_Text_Input_via_AppleScript'
+      EventDescription: 'Обнаружена подозрительная форма аутентификации на узле {event_src.host}'

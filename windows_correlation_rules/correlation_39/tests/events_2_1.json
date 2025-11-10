@@ -1,0 +1,127 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Sysmon",
+                "Guid": "{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"
+            },
+            "EventID": "1",
+            "Version": "5",
+            "Level": "4",
+            "Task": "1",
+            "Opcode": "0",
+            "Keywords": "0x8000000000000000",
+            "TimeCreated": {
+                "SystemTime": "2024-07-04T09:14:07.8141493Z"
+            },
+            "EventRecordID": "96835835",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "3996",
+                "ThreadID": "5012"
+            },
+            "Channel": "Microsoft-Windows-Sysmon/Operational",
+            "Computer": "win10-work.stand2008.local",
+            "Security": {
+                "UserID": "S-1-5-18"
+            }
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "RuleName",
+                    "text": "-"
+                },
+                {
+                    "Name": "UtcTime",
+                    "text": "2024-07-04 09:14:07.808"
+                },
+                {
+                    "Name": "ProcessGuid",
+                    "text": "{2b856446-67df-6686-3102-000000002c02}"
+                },
+                {
+                    "Name": "ProcessId",
+                    "text": "9204"
+                },
+                {
+                    "Name": "Image",
+                    "text": "E:\\distrib\\soc\\sysinternals\\PsLoggedon64.exe"
+                },
+                {
+                    "Name": "FileVersion",
+                    "text": "1.35"
+                },
+                {
+                    "Name": "Description",
+                    "text": "See who's logged on"
+                },
+                {
+                    "Name": "Product",
+                    "text": "Sysinternals PsLoggedon"
+                },
+                {
+                    "Name": "Company",
+                    "text": "Sysinternals - www.sysinternals.com"
+                },
+                {
+                    "Name": "OriginalFileName",
+                    "text": "psloggedon.exe"
+                },
+                {
+                    "Name": "CommandLine",
+                    "text": "PsLoggedon64.exe -l \\\\win10-work.stand2008.local"
+                },
+                {
+                    "Name": "CurrentDirectory",
+                    "text": "E:\\distrib\\soc\\sysinternals\\"
+                },
+                {
+                    "Name": "User",
+                    "text": "STAND2008\\Администратор"
+                },
+                {
+                    "Name": "LogonGuid",
+                    "text": "{2b856446-4016-6686-b8b8-4e0000000000}"
+                },
+                {
+                    "Name": "LogonId",
+                    "text": "0x4eb8b8"
+                },
+                {
+                    "Name": "TerminalSessionId",
+                    "text": "3"
+                },
+                {
+                    "Name": "IntegrityLevel",
+                    "text": "High"
+                },
+                {
+                    "Name": "Hashes",
+                    "text": "SHA1=1F5B5E40C420F64AA8E8DE471367E3DECC9763CD,MD5=07ED30D2343BF8914DAAED872B681118,SHA256=FDADB6E15C52C41A31E3C22659DD490D5B616E017D1B1AA6070008CE09ED27EA,IMPHASH=E4941A2A5BD3B0E41593AE57BDCEF195"
+                },
+                {
+                    "Name": "ParentProcessGuid",
+                    "text": "{2b856446-5893-6686-9d01-000000002c02}"
+                },
+                {
+                    "Name": "ParentProcessId",
+                    "text": "5132"
+                },
+                {
+                    "Name": "ParentImage",
+                    "text": "C:\\Windows\\System32\\cmd.exe"
+                },
+                {
+                    "Name": "ParentCommandLine",
+                    "text": "\"C:\\Windows\\system32\\cmd.exe\""
+                },
+                {
+                    "Name": "ParentUser",
+                    "text": "STAND2008\\Администратор"
+                }
+            ]
+        }
+    }
+}

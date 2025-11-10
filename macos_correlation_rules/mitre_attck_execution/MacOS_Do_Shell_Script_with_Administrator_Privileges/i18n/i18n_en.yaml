@@ -1,0 +1,6 @@
+Description: 'The rule detects the execution of AppleScript do shell script, which contains the bash command in the body, requesting administrator privileges, as well as with a clear password'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Do_Shell_Script_with_Administrator_Privileges'
+      EventDescription: 'An attempt was detected to execute AppleScript by the process {object.process.fullpath} with elevated privileges request and a clear password on the host {event_src.host}'
+    - LocalizationId: 'corrname_MacOS_Do_Shell_Script_with_Administrator_Privileges_2'
+      EventDescription: 'An attempt was detected to execute AppleScript by the process  {object.process.fullpath} with elevated privileges request on the host {event_src.host}'

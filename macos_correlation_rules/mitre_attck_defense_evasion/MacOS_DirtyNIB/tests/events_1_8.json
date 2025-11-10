@@ -1,0 +1,280 @@
+{
+    "schema_version": 1,
+    "mach_time": 66115127376,
+    "event_type": 9,
+    "thread": {
+        "thread_id": 21329
+    },
+    "version": 7,
+    "seq_num": 5,
+    "event": {
+        "exec": {
+            "script": null,
+            "last_fd": 20,
+            "target": {
+                "signing_id": "com.apple.whoami",
+                "parent_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 4785,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 2904
+                },
+                "codesigning_flags": 570492929,
+                "executable": {
+                    "path": "/usr/bin/whoami",
+                    "stat": {
+                        "st_blocks": 32,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777230,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312436965,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 134928,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 2904,
+                "tty": null,
+                "start_time": "2024-03-14T14:35:10.220083Z",
+                "is_platform_binary": true,
+                "group_id": 2904,
+                "audit_token": {
+                    "asid": 100004,
+                    "pidversion": 4789,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 2905
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 4785,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 2904
+                },
+                "session_id": 1,
+                "original_ppid": 2904,
+                "cdhash": "9195CC306AA1E60DDB64B28D31B7FDBAF7975957",
+                "team_id": null
+            },
+            "image_cpusubtype": -2147483646,
+            "image_cputype": 16777228,
+            "fds": [
+                {
+                    "fd": 0,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 1,
+                    "pipe": {
+                        "pipe_id": 2052
+                    },
+                    "fdtype": 6
+                },
+                {
+                    "fd": 2,
+                    "pipe": {
+                        "pipe_id": 2053
+                    },
+                    "fdtype": 6
+                },
+                {
+                    "fd": 8,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 9,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 10,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 11,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 12,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 13,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 14,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 15,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 16,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 17,
+                    "fdtype": 1
+                },
+                {
+                    "fd": 18,
+                    "pipe": {
+                        "pipe_id": 2052
+                    },
+                    "fdtype": 6
+                },
+                {
+                    "fd": 20,
+                    "pipe": {
+                        "pipe_id": 2053
+                    },
+                    "fdtype": 6
+                }
+            ],
+            "env": [
+                "SHELL=/bin/zsh",
+                "TMPDIR=/var/folders/n1/s1s8jdd919s8djb84sr3myrw0000gn/T/com.apple.freeform/",
+                "USER=user",
+                "COMMAND_MODE=unix2003",
+                "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.MYZfntOnSY/Listeners",
+                "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+                "PATH=/usr/bin:/bin:/usr/sbin:/sbin",
+                "__CFBundleIdentifier=com.apple.freeform",
+                "PWD=/Users/user/Library/Containers/com.apple.freeform/Data",
+                "APP_SANDBOX_CONTAINER_ID=com.apple.freeform",
+                "CFFIXED_USER_HOME=/Users/user/Library/Containers/com.apple.freeform/Data",
+                "XPC_FLAGS=0x0",
+                "XPC_SERVICE_NAME=application.com.apple.freeform.547261.547266",
+                "SHLVL=1",
+                "HOME=/Users/user/Library/Containers/com.apple.freeform/Data",
+                "LOGNAME=user",
+                "_=/usr/bin/whoami"
+            ],
+            "args": [
+                "whoami"
+            ],
+            "cwd": {
+                "path": "/Users/user/Library/Containers/com.apple.freeform/Data",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777230,
+                    "st_uid": 501,
+                    "st_gid": 20,
+                    "st_ino": 381875,
+                    "st_birthtimespec": "2023-11-15T09:18:17.157460471Z",
+                    "st_flags": 0,
+                    "st_nlink": 13,
+                    "st_mtimespec": "2023-11-15T09:18:17.423633194Z",
+                    "st_ctimespec": "2023-11-15T09:18:17.423633194Z",
+                    "st_size": 416,
+                    "st_gen": 0,
+                    "st_mode": 16832,
+                    "st_atimespec": "2023-11-15T09:18:17.157460471Z"
+                },
+                "path_truncated": false
+            },
+            "dyld_exec_path": "/usr/bin/whoami"
+        }
+    },
+    "time": "2024-03-14T14:35:10.222828996Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.bash",
+        "parent_audit_token": {
+            "asid": 100004,
+            "pidversion": 4785,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 2904
+        },
+        "codesigning_flags": 570492929,
+        "executable": {
+            "path": "/bin/bash",
+            "stat": {
+                "st_blocks": 1368,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777230,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312435258,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 1326752,
+                "st_gen": 0,
+                "st_mode": 33133,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 2904,
+        "tty": null,
+        "start_time": "2024-03-14T14:35:10.220083Z",
+        "is_platform_binary": true,
+        "group_id": 2904,
+        "audit_token": {
+            "asid": 100004,
+            "pidversion": 4788,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 2905
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100004,
+            "pidversion": 4785,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 2904
+        },
+        "session_id": 1,
+        "original_ppid": 2904,
+        "cdhash": "A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 503
+}

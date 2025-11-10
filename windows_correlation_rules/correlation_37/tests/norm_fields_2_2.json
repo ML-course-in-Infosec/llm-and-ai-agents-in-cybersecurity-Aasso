@@ -1,0 +1,14 @@
+{
+  "time": "2019-08-03t12:08:25.1655936z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "msedgewin10",
+  "event_src.id": "5",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "subject.process.fullpath": "c:\\users\\ieuser\\desktop\\uacme.exe",
+  "subject.process.path": "c:\\users\\ieuser\\desktop\\",
+  "subject.process.name": "uacme.exe",
+  "subject.process.id": "5336",
+  "subject.process.guid": "{747f3d96-792d-5d45-0000-00104f190601}"
+}

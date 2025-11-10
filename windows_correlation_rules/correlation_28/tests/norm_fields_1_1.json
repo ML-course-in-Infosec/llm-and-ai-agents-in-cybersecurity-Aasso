@@ -1,0 +1,18 @@
+{
+  "time": "2023-06-01t16:16:14.2766042z",
+  "event_src.title": "microsoft-windows-security-auditing",
+  "event_src.subsys": "security",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "win10-work.stand2008.local",
+  "event_src.id": "4703",
+  "event_src.category": "security",
+  "subject.process.id": "0x710",
+  "object.account.name": "администратор",
+  "object.account.domain": "stand2008",
+  "object.account.id": "s-1-5-21-3800063338-4262557262-2801230003-500",
+  "subject.account.name": "администратор",
+  "subject.account.domain": "stand2008",
+  "subject.account.id": "s-1-5-21-3800063338-4262557262-2801230003-500",
+  "subject.account.session_id": "0x19bb1d",
+  "subject.process.fullpath": "e:\\work\\myproject\\proch\\x64\\release\\proch.exe"
+}

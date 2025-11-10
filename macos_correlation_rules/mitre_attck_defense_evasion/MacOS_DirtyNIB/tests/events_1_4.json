@@ -1,0 +1,134 @@
+{
+    "schema_version": 1,
+    "mach_time": 65966479534,
+    "event_type": 33,
+    "thread": {
+        "thread_id": 21232
+    },
+    "version": 7,
+    "seq_num": 74,
+    "event": {
+        "write": {
+            "target": {
+                "path": "/private/tmp/Freeform.app/Contents/Resources/Base.lproj/CRLAboutPanel.nib",
+                "stat": {
+                    "st_blocks": 0,
+                    "st_blksize": 4096,
+                    "st_rdev": 0,
+                    "st_dev": 16777230,
+                    "st_uid": 501,
+                    "st_gid": 0,
+                    "st_ino": 547315,
+                    "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                    "st_flags": 0,
+                    "st_nlink": 1,
+                    "st_mtimespec": "2024-03-14T14:35:04.028437431Z",
+                    "st_ctimespec": "2024-03-14T14:35:04.028523524Z",
+                    "st_size": 0,
+                    "st_gen": 0,
+                    "st_mode": 33152,
+                    "st_atimespec": "2024-03-14T14:33:59.585971944Z"
+                },
+                "path_truncated": false
+            }
+        }
+    },
+    "time": "2024-03-14T14:35:04.028602324Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.cp",
+        "parent_audit_token": {
+            "asid": 100004,
+            "pidversion": 1101,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 456
+        },
+        "codesigning_flags": 570492929,
+        "executable": {
+            "path": "/bin/cp",
+            "stat": {
+                "st_blocks": 56,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777230,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312435264,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 152800,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 456,
+        "tty": {
+            "path": "/dev/ttys000",
+            "stat": {
+                "st_blocks": 0,
+                "st_blksize": 65536,
+                "st_rdev": 268435456,
+                "st_dev": -972825996,
+                "st_uid": 501,
+                "st_gid": 4,
+                "st_ino": 1197,
+                "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                "st_flags": 0,
+                "st_nlink": 1,
+                "st_mtimespec": "2024-03-14T14:35:04.024628000Z",
+                "st_ctimespec": "2024-03-14T14:35:04.024628000Z",
+                "st_size": 0,
+                "st_gen": 0,
+                "st_mode": 8592,
+                "st_atimespec": "2024-03-14T14:35:04.012133000Z"
+            },
+            "path_truncated": false
+        },
+        "start_time": "2024-03-14T14:35:04.023424Z",
+        "is_platform_binary": true,
+        "group_id": 2900,
+        "audit_token": {
+            "asid": 100004,
+            "pidversion": 4779,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 2900
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100004,
+            "pidversion": 881,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 376
+        },
+        "session_id": 450,
+        "original_ppid": 456,
+        "cdhash": "72FAD644EC24C0FB99080CCFBD8C0F5EE8245B04",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 77
+}

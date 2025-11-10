@@ -1,0 +1,6 @@
+Description: 'Правило детектирует выполнение AppleScript do shell script, который в теле содержит bash команды, с запросом привилегий администратора, а также с паролем, который указан явно'
+EventDescriptions:
+    - LocalizationId: 'corrname_MacOS_Do_Shell_Script_with_Administrator_Privileges'
+      EventDescription: 'Обнаружена попытка выполнить AppleScript процессом {object.process.fullpath} с повышенными привилегиями и явно указанным паролем на узле {event_src.host}'
+    - LocalizationId: 'corrname_MacOS_Do_Shell_Script_with_Administrator_Privileges_2'
+      EventDescription: 'Обнаружена попытка выполнить AppleScript процессом {object.process.fullpath} с повышенными привилегиями на узле {event_src.host}'

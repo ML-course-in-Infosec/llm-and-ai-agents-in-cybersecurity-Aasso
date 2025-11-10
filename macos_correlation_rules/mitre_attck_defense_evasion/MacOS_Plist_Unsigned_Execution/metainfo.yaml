@@ -1,0 +1,23 @@
+ContentAutoName: MacOS_Plist_Unsigned_Execution
+ExpertContext:
+    Created: 20.06.2024
+    Updated: 22.06.2024
+    KnowledgeHolders:
+        - Kirill Aparkin
+    Usecases:
+        - Правило обнаруживает запуск неподписанных файлов через plist
+    Falsepositives:
+        - Возможны фолзы при запуске подобным образом самописных скриптов
+    References:
+        - https://gergelykalman.com/CVE-2023-32364-a-macOS-sandbox-escape-by-mounting.html
+        - https://attack.mitre.org/techniques/T1647/
+    Improvements: []
+ObjectId: SEC-CR-262534713
+ContentRelations:
+    Implements:
+        ATTACK:
+            defense-evasion:
+                - T1647
+EventDescriptions:
+    - Criteria: correlation_name = "MacOS_Plist_Unsigned_Execution"
+      LocalizationId: corrname_MacOS_Plist_Unsigned_Execution

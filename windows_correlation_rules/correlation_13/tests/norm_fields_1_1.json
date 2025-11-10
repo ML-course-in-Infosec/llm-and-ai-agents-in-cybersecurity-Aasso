@@ -1,0 +1,12 @@
+{
+  "time": "2019-03-17t19:09:41.3288680z",
+  "event_src.title": "microsoft-windows-sysmon",
+  "event_src.subsys": "sysmon",
+  "event_src.vendor": "microsoft",
+  "event_src.hostname": "pc04.example.corp",
+  "event_src.id": "10",
+  "event_src.category": "microsoft-windows-sysmon/operational",
+  "object.process.fullpath": "c:\\windows\\system32\\lsass.exe",
+  "object.process.path": "c:\\windows\\system32\\",
+  "object.process.name": "lsass.exe"
+}

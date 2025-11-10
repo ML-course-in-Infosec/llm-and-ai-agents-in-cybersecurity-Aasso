@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "466",
+    "subject.process.id": "2531",
+    "subject.process.parent.id": "2513",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:A40DBBD3AAEEA208D82E383E279A6B2B0D69907A",
+    "object.hash": "098781820900DFAC01137329F888DD133129671F",
+    "object.process.fullpath": "/usr/bin/id",
+    "object.process.name": "id",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "id",
+    "object.process.cwd": "/Users/user/Desktop",
+    "object.process.id": "2531",
+    "object.process.parent.id": "2513",
+    "msgid": "9",
+    "time": "2024-03-15T09:49:02.288Z",
+    "event_src.host": "127.0.0.1"
+}

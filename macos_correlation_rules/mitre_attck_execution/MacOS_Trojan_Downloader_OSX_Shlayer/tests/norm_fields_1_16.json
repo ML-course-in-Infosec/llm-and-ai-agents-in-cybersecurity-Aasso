@@ -1,0 +1,21 @@
+{
+    "subject.account.id": "501",
+    "subject.account.session_id": "1",
+    "subject.process.id": "1034",
+    "subject.process.parent.id": "1032",
+    "subject.process.fullpath": "/bin/bash",
+    "subject.process.name": "bash",
+    "subject.process.path": "/bin/",
+    "subject.process.hash": "UNKNOWN:CD309001750BCE8946CD379DD8EF374DF7C92AF5",
+    "object.hash": "E0B33078A0E0D2B19ED87CA1449DF9F150CE537B",
+    "object.process.fullpath": "/usr/bin/dirname",
+    "object.process.name": "dirname",
+    "object.process.path": "/usr/bin/",
+    "object.process.cmdline": "dirname /Users/user/Desktop/AdobeFlashPlayer_567.app/Contents/MacOS/LYwjtu0sc3XqkNVbQe_gM4YiRpmgUpRIew",
+    "object.process.cwd": "/",
+    "object.process.id": "1034",
+    "object.process.parent.id": "1032",
+    "msgid": "9",
+    "time": "2024-03-12T13:23:23.481Z",
+    "event_src.host": "127.0.0.1"
+}

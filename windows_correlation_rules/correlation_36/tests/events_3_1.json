@@ -1,0 +1,84 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "5145",
+            "Version": "0",
+            "Level": "0",
+            "Task": "12811",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-05-17T12:08:40.8961838Z"
+            },
+            "EventRecordID": "42239824",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "4",
+                "ThreadID": "2460"
+            },
+            "Channel": "Security",
+            "Computer": "Win10x64-133.testlab.esc",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-1129291328-2819992169-918366777-1113"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "yfomina"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "TESTLAB"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x48f85a9"
+                },
+                {
+                    "Name": "ObjectType",
+                    "text": "File"
+                },
+                {
+                    "Name": "IpAddress",
+                    "text": "::1"
+                },
+                {
+                    "Name": "IpPort",
+                    "text": "55676"
+                },
+                {
+                    "Name": "ShareName",
+                    "text": "\\\\*\\IPC$"
+                },
+                {
+                    "Name": "ShareLocalPath"
+                },
+                {
+                    "Name": "RelativeTargetName",
+                    "text": "0029482318be6784"
+                },
+                {
+                    "Name": "AccessMask",
+                    "text": "0x12019f"
+                },
+                {
+                    "Name": "AccessList",
+                    "text": "%%1538 %%1541 %%4416 %%4417 %%4418 %%4419 %%4420 %%4423 %%4424"
+                },
+                {
+                    "Name": "AccessReason",
+                    "text": "-"
+                }
+            ]
+        }
+    }
+}

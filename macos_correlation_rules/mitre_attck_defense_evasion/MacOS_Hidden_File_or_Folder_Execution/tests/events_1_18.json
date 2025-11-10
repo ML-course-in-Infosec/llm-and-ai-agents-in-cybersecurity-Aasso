@@ -1,0 +1,199 @@
+{
+    "schema_version": 1,
+    "mach_time": 22727661718,
+    "event_type": 11,
+    "thread": {
+        "thread_id": 6369
+    },
+    "version": 7,
+    "seq_num": 10,
+    "event": {
+        "fork": {
+            "child": {
+                "signing_id": "com.apple.zsh",
+                "parent_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2272,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 925
+                },
+                "codesigning_flags": 570492929,
+                "executable": {
+                    "path": "/bin/zsh",
+                    "stat": {
+                        "st_blocks": 1472,
+                        "st_blksize": 4096,
+                        "st_rdev": 0,
+                        "st_dev": 16777232,
+                        "st_uid": 0,
+                        "st_gid": 0,
+                        "st_ino": 1152921500312435328,
+                        "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_flags": 524320,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                        "st_size": 1377520,
+                        "st_gen": 0,
+                        "st_mode": 33261,
+                        "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+                    },
+                    "path_truncated": false
+                },
+                "ppid": 925,
+                "tty": {
+                    "path": "/dev/ttys001",
+                    "stat": {
+                        "st_blocks": 0,
+                        "st_blksize": 65536,
+                        "st_rdev": 268435457,
+                        "st_dev": 377043029,
+                        "st_uid": 501,
+                        "st_gid": 4,
+                        "st_ino": 1199,
+                        "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                        "st_flags": 0,
+                        "st_nlink": 1,
+                        "st_mtimespec": "2024-03-12T14:33:32.464587000Z",
+                        "st_ctimespec": "2024-03-12T14:33:32.464587000Z",
+                        "st_size": 0,
+                        "st_gen": 0,
+                        "st_mode": 8592,
+                        "st_atimespec": "2024-03-12T14:33:32.464587000Z"
+                    },
+                    "path_truncated": false
+                },
+                "start_time": "2024-03-12T14:33:32.466355Z",
+                "is_platform_binary": true,
+                "group_id": 925,
+                "audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2974,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 1349
+                },
+                "is_es_client": false,
+                "responsible_audit_token": {
+                    "asid": 100004,
+                    "pidversion": 2167,
+                    "ruid": 501,
+                    "euid": 501,
+                    "rgid": 20,
+                    "auid": 501,
+                    "egid": 20,
+                    "pid": 861
+                },
+                "session_id": 924,
+                "original_ppid": 925,
+                "cdhash": "6141DE079756F94ACFA074801FC834C366FA2904",
+                "team_id": null
+            }
+        }
+    },
+    "time": "2024-03-12T14:33:32.466859770Z",
+    "action": {
+        "result": {
+            "result": {
+                "auth": 0
+            },
+            "result_type": 0
+        }
+    },
+    "process": {
+        "signing_id": "com.apple.zsh",
+        "parent_audit_token": {
+            "asid": 100004,
+            "pidversion": 2270,
+            "ruid": 501,
+            "euid": 0,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 924
+        },
+        "codesigning_flags": 570492929,
+        "executable": {
+            "path": "/bin/zsh",
+            "stat": {
+                "st_blocks": 1472,
+                "st_blksize": 4096,
+                "st_rdev": 0,
+                "st_dev": 16777232,
+                "st_uid": 0,
+                "st_gid": 0,
+                "st_ino": 1152921500312435328,
+                "st_birthtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_flags": 524320,
+                "st_nlink": 1,
+                "st_mtimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_ctimespec": "2023-07-11T08:56:22.000000000Z",
+                "st_size": 1377520,
+                "st_gen": 0,
+                "st_mode": 33261,
+                "st_atimespec": "2023-07-11T08:56:22.000000000Z"
+            },
+            "path_truncated": false
+        },
+        "ppid": 924,
+        "tty": {
+            "path": "/dev/ttys001",
+            "stat": {
+                "st_blocks": 0,
+                "st_blksize": 65536,
+                "st_rdev": 268435457,
+                "st_dev": 377043029,
+                "st_uid": 501,
+                "st_gid": 4,
+                "st_ino": 1199,
+                "st_birthtimespec": "1970-01-01T00:00:00.000000000Z",
+                "st_flags": 0,
+                "st_nlink": 1,
+                "st_mtimespec": "2024-03-12T14:33:32.464587000Z",
+                "st_ctimespec": "2024-03-12T14:33:32.464587000Z",
+                "st_size": 0,
+                "st_gen": 0,
+                "st_mode": 8592,
+                "st_atimespec": "2024-03-12T14:33:32.464587000Z"
+            },
+            "path_truncated": false
+        },
+        "start_time": "2024-03-12T14:21:24.893162Z",
+        "is_platform_binary": true,
+        "group_id": 925,
+        "audit_token": {
+            "asid": 100004,
+            "pidversion": 2272,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 925
+        },
+        "is_es_client": false,
+        "responsible_audit_token": {
+            "asid": 100004,
+            "pidversion": 2167,
+            "ruid": 501,
+            "euid": 501,
+            "rgid": 20,
+            "auid": 501,
+            "egid": 20,
+            "pid": 861
+        },
+        "session_id": 924,
+        "original_ppid": 924,
+        "cdhash": "6141DE079756F94ACFA074801FC834C366FA2904",
+        "team_id": null
+    },
+    "action_type": 1,
+    "global_seq_num": 18
+}

@@ -1,0 +1,69 @@
+{
+    "Event": {
+        "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event",
+        "System": {
+            "Provider": {
+                "Name": "Microsoft-Windows-Security-Auditing",
+                "Guid": "{54849625-5478-4994-a5ba-3e3b0328c30d}"
+            },
+            "EventID": "4799",
+            "Version": "0",
+            "Level": "0",
+            "Task": "13826",
+            "Opcode": "0",
+            "Keywords": "0x8020000000000000",
+            "TimeCreated": {
+                "SystemTime": "2023-01-24T11:52:02.1550291Z"
+            },
+            "EventRecordID": "3819707",
+            "Correlation": "",
+            "Execution": {
+                "ProcessID": "724",
+                "ThreadID": "10848"
+            },
+            "Channel": "Security",
+            "Computer": "01566s-win16-ir.threebeesco.com",
+            "Security": ""
+        },
+        "EventData": {
+            "Data": [
+                {
+                    "Name": "TargetUserName",
+                    "text": "Administrators"
+                },
+                {
+                    "Name": "TargetDomainName",
+                    "text": "Builtin"
+                },
+                {
+                    "Name": "TargetSid",
+                    "text": "S-1-5-32-544"
+                },
+                {
+                    "Name": "SubjectUserSid",
+                    "text": "S-1-5-21-308926384-506822093-3341789130-1105"
+                },
+                {
+                    "Name": "SubjectUserName",
+                    "text": "jbrown"
+                },
+                {
+                    "Name": "SubjectDomainName",
+                    "text": "3B"
+                },
+                {
+                    "Name": "SubjectLogonId",
+                    "text": "0x23ec715"
+                },
+                {
+                    "Name": "CallerProcessId",
+                    "text": "0x23e8"
+                },
+                {
+                    "Name": "CallerProcessName",
+                    "text": "C:\\Windows\\System32\\net1.exe"
+                }
+            ]
+        }
+    }
+}
