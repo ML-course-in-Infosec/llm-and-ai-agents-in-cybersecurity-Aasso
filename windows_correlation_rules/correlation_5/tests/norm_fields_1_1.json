@@ -1,9 +1,0 @@
-{
-  "time": "2019-02-13t18:04:01.6321208z",
-  "event_src.title": "microsoft-windows-security-auditing",
-  "event_src.subsys": "security",
-  "event_src.vendor": "microsoft",
-  "event_src.hostname": "pc01.example.corp",
-  "event_src.id": "5156",
-  "event_src.category": "security"
-}

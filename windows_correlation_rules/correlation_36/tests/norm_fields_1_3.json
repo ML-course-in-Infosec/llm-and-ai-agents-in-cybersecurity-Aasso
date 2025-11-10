@@ -1,8 +1,0 @@
-{
-  "time": "2023-05-17t10:24:33.2678382z",
-  "event_src.title": "service control manager",
-  "event_src.vendor": "microsoft",
-  "event_src.hostname": "win10x64-133.testlab.esc",
-  "event_src.id": "{'qualifiers': '16384', 'text': '7045'}",
-  "event_src.category": "system"
-}

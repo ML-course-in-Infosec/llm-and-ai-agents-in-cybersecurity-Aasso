@@ -1,5 +1,0 @@
-{
-  "tactic": "Credential Access",
-  "technique": "OS Credential Dumping: LSASS Memory",
-  "importance": "high"
-}

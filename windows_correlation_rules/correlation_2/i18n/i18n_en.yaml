@@ -1,4 +1,0 @@
-Description: 'The rule detects system recovery inhibition (deletion of backups and shadow copies) activity based on Windows security events'
-EventDescriptions:
-    - LocalizationId: 'corrname_correlation_2'
-      EventDescription: 'User {subject.account.name} executed {subject.process.name} with command {subject.process.cmdline} on host {event_src.hostname}'

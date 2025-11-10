@@ -1,8 +1,0 @@
-{
-  "time": "2019-02-13t18:04:57.4523864z",
-  "event_src.title": "microsoft-windows-terminalservices-remoteconnectionmanager",
-  "event_src.vendor": "microsoft",
-  "event_src.hostname": "pc01.example.corp",
-  "event_src.id": "1149",
-  "event_src.category": "microsoft-windows-terminalservices-remoteconnectionmanager/operational"
-}

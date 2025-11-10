@@ -1,4 +1,0 @@
-Description: 'The rule detects suspicious command execution and scripting activity based on Windows security events'
-EventDescriptions:
-    - LocalizationId: 'corrname_correlation_4'
-      EventDescription: 'User {subject.account.name} executed {subject.process.name} with command {subject.process.cmdline} on host {event_src.hostname}'

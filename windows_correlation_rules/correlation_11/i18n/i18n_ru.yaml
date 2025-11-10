@@ -1,4 +1,0 @@
-Description: 'Правило обнаруживает активность связанную с подозрительным выполнением команд и скриптов на основе событий безопасности Windows'
-EventDescriptions:
-    - LocalizationId: 'corrname_correlation_11'
-      EventDescription: 'Пользователь {subject.account.name} выполнил процесс {subject.process.name} с командой {subject.process.cmdline} на узле {event_src.hostname}'

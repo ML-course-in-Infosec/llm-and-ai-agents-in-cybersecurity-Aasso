@@ -1,8 +1,0 @@
-{
-  "time": "2019-03-19t23:35:07.5242021z",
-  "event_src.title": "microsoft-windows-eventlog",
-  "event_src.vendor": "microsoft",
-  "event_src.hostname": "pc01.example.corp",
-  "event_src.id": "1102",
-  "event_src.category": "security"
-}
